@@ -1,0 +1,1 @@
+{"version":3,"file":"create-app-props.js","sourceRoot":"","sources":["create-app-props.ts"],"names":[],"mappings":";AAIA,6EAAuE;AAEvE,IAAM,KAAK,GAAW,OAAO,CAAC,qBAAqB,CAAC,CAAC;AACrD,IAAM,YAAY,GAAkB,OAAO,CAAC,6BAA6B,CAAC,CAAC;AAE3E;IAEI,IAAM,kBAAkB,GAAuB,sDAAwB,CAAC,KAAK,EAAE,YAAY,CAAC,CAAC;IAE7F,MAAM,CAAC;QACH,kBAAkB,EAAE,kBAAkB;KACzC,CAAA;AACL,CAAC;AAGG,wCAAc"}
