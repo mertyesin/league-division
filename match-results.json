@@ -8,7 +8,7 @@
     {
       "homeTeamName": "Burnley",
       "awayTeamName": "Liverpool",
-      "homeGoals": 0,
+      "homeGoals": 4,
       "awayGoals": 2
     },
     {
@@ -18,10 +18,10 @@
       "awayGoals": 2
     },
     {
-      "homeTeamName": "Liverpool",
-      "awayTeamName": "Burnley",
-      "homeGoals": 2,
-      "awayGoals": 1
+      "homeTeamName": "Hull City",
+      "awayTeamName": "Everton",
+      "homeGoals": 3,
+      "awayGoals": 2
     },
     {
       "homeTeamName": "Arsenal",
@@ -32,7 +32,7 @@
     {
       "homeTeamName": "Burnley",
       "awayTeamName": "Watford",
-      "homeGoals": 0,
+      "homeGoals": 4,
       "awayGoals": 2
     },
     {
@@ -196,7 +196,7 @@
   {
     "homeTeamName": "Arsenal",
     "awayTeamName": "Southampton",
-    "homeGoals": 20,
+    "homeGoals": 2,
     "awayGoals": 3
   },
   
@@ -306,7 +306,7 @@
   {
     "homeTeamName": "Arsenal",
     "awayTeamName": "Southampton",
-    "homeGoals": 20,
+    "homeGoals": 2,
     "awayGoals": 3
   },
   
@@ -416,7 +416,7 @@
   {
     "homeTeamName": "Arsenal",
     "awayTeamName": "Southampton",
-    "homeGoals": 20,
+    "homeGoals": 2,
     "awayGoals": 3
   },
   
@@ -526,7 +526,7 @@
   {
     "homeTeamName": "Arsenal",
     "awayTeamName": "Southampton",
-    "homeGoals": 20,
+    "homeGoals": 2,
     "awayGoals": 3
   },
   
@@ -636,7 +636,7 @@
   {
     "homeTeamName": "Arsenal",
     "awayTeamName": "Southampton",
-    "homeGoals": 20,
+    "homeGoals": 2,
     "awayGoals": 3
   },
   
@@ -746,7 +746,7 @@
   {
     "homeTeamName": "Arsenal",
     "awayTeamName": "Southampton",
-    "homeGoals": 20,
+    "homeGoals": 2,
     "awayGoals": 3
   },
   
