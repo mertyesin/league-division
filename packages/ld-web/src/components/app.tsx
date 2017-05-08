@@ -2,7 +2,8 @@ import * as React from "react";
 import {DivisionTable} from "./division-table";
 import {AppProps} from "../props";
 
-class App extends React.Component <AppProps, {}> {
+
+class App extends React.Component<AppProps, {}> {
     props: AppProps;
 
         render () {

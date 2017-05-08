@@ -1,6 +1,7 @@
 import * as React from "react";
 import {DivisionTableProps} from "../props";
 
+
 class DivisionTable extends React.Component<DivisionTableProps, {}> {
 props: DivisionTableProps;
 

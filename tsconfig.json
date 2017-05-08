@@ -9,6 +9,6 @@
         "jsx": "react"
     },
     "include": [
-      "./ld-web/src/**/*"
+      "./packages/ld-web/src/**/*"
     ]
 }

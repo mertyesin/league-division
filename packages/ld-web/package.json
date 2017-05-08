@@ -1,0 +1,15 @@
+{
+  "name": "ld-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"webpack-dev-server"
+  },
+  "dependencies": {
+    "node-fetch": "1.6.0",
+    "@types/node-fetch": "^1.6.7"
+  },
+  "author": "Mert",
+  "license": "MIT"
+}

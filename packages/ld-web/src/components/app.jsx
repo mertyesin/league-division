@@ -12,9 +12,8 @@ var App = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     App.prototype.render = function () {
-        return (React.createElement(division_table_1.DivisionTable, { teamStatusList: this.props.divisionTableProps.teamStatusList }));
+        return (<division_table_1.DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList}/>);
     };
     return App;
 }(React.Component));
 exports.App = App;
-//# sourceMappingURL=App.js.map

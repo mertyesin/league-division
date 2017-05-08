@@ -2,7 +2,7 @@ const path = require("path");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
-const ENTRY_PATH = path.join(__dirname, "ld-web/src/components/index.js"),
+const ENTRY_PATH = path.join(__dirname, "/src/main.js"),
     OUTPUT_PATH = path.join(__dirname, "dist");
 
 module.exports = {
