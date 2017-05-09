@@ -6,8 +6,9 @@ import {App} from "./components";
 import {Team, MatchResult} from "./model";
 import {createDivisionTableProps} from "./props-factory/create-division-table-props";
 
+const teams: Team[] = require("../../../teams.json");
+
 async function main() {
-    const teams: Team[] = require("../../../teams.json");
 
     let matchResults: MatchResult[];
 
