@@ -7,6 +7,8 @@ const matchResults: MatchResult[] = require("../../match-results.json");
 const app: Application = express();
 app.use(cors());
 
+// TODO: klasör yarat jsonları oraya koy.teams de aynı ws de olsun.
+
 app.get("/match-result/", function(httpRequest: Request, httpResponse: Response) {
 
     if (matchResults) {

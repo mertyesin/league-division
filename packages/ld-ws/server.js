@@ -4,6 +4,7 @@ var cors = require("cors");
 var matchResults = require("../../match-results.json");
 var app = express();
 app.use(cors());
+// TODO: klasör yarat jsonları oraya koy.teams de aynı ws de olsun.
 app.get("/match-result/", function (httpRequest, httpResponse) {
     if (matchResults) {
         sendResponse(httpResponse, matchResults);
