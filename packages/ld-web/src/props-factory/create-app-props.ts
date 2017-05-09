@@ -6,11 +6,10 @@ import {MatchResult} from "../model/match-result";
 
 // import * as fetch from "node-fetch";
 
-const teams: Team[] = require("../../../../teams.json");
-
 function createAppProps(): AppProps {
 
     let matchResults: MatchResult[];
+    let teams: Team[];
 
     const divisionTableProps: DivisionTableProps = createDivisionTableProps(teams, matchResults);
 

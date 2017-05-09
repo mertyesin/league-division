@@ -21,7 +21,6 @@ function _createTeamStatusList(teams: Team[], matchResults: MatchResult[]): Team
         return _createTeamStatus(t.name, teamMatchResults)
     });
 }
-
 function _createTeamStatus(teamName: string, teamMatchResults: MatchResult[]): TeamStatus {
 
     let played=0,

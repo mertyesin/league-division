@@ -1,16 +1,25 @@
 "use strict";
 var express = require("express");
 var cors = require("cors");
-var matchResults = require("../../match-results.json");
+var matchResults = require("../ld-tools/match-results.json");
+var teams = require("./../ld-tools/teams.json");
 var app = express();
 app.use(cors());
-// TODO: klasör yarat jsonları oraya koy.teams de aynı ws de olsun.
 app.get("/match-result/", function (httpRequest, httpResponse) {
     if (matchResults) {
         sendResponse(httpResponse, matchResults);
     }
     else {
         var newErr = "error details: match-results not found";
+        sendErrorResponse(httpResponse, 500, newErr);
+    }
+});
+app.get("/teams/", function (httpRequest, httpResponse) {
+    if (teams) {
+        sendResponse(httpResponse, teams);
+    }
+    else {
+        var newErr = "error details: teams not found";
         sendErrorResponse(httpResponse, 500, newErr);
     }
 });

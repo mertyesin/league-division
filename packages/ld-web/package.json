@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"webpack-dev-server"
+    "start-webpack-dev-server":"webpack-dev-server"
   },
   "dependencies": {
     "node-fetch": "1.6.0",

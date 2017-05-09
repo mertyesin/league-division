@@ -1,13 +1,14 @@
 import * as express from "express";
 import {Application, Request, Response} from "express";
-import {MatchResult} from "../ld-web/src/model/";
+import {MatchResult} from "../ld-web/src/model";
+import {Team} from "../ld-web/src/model";
 import * as cors from "cors";
 
-const matchResults: MatchResult[] = require("../../match-results.json");
+const matchResults: MatchResult[] = require("../ld-tools/match-results.json");
+const teams: Team[] = require("./../ld-tools/teams.json");
+
 const app: Application = express();
 app.use(cors());
-
-// TODO: klasör yarat jsonları oraya koy.teams de aynı ws de olsun.
 
 app.get("/match-result/", function(httpRequest: Request, httpResponse: Response) {
 
@@ -16,6 +17,17 @@ app.get("/match-result/", function(httpRequest: Request, httpResponse: Response)
     }
     else {
         const newErr = `error details: match-results not found`;
+        sendErrorResponse(httpResponse, 500, newErr);
+    }
+});
+
+app.get("/teams/", function(httpRequest: Request, httpResponse: Response) {
+
+    if (teams) {
+        sendResponse(httpResponse, teams);
+    }
+    else {
+        const newErr = `error details: teams not found`;
         sendErrorResponse(httpResponse, 500, newErr);
     }
 });
