@@ -4,8 +4,8 @@ import {MatchResult} from "../ld-web/src/model";
 import {Team} from "../ld-web/src/model";
 import * as cors from "cors";
 
-const matchResults: MatchResult[] = require("../ld-tools/match-results.json");
-const teams: Team[] = require("./../ld-tools/teams.json");
+const matchResults: MatchResult[] = require("./../../tmp/match-results.json");
+const teams: Team[] = require("./../ld-tools/generate/teams.json");
 
 const app: Application = express();
 app.use(cors());

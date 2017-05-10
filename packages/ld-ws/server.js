@@ -1,8 +1,8 @@
 "use strict";
 var express = require("express");
 var cors = require("cors");
-var matchResults = require("../ld-tools/match-results.json");
-var teams = require("./../ld-tools/teams.json");
+var matchResults = require("./../../tmp/match-results.json");
+var teams = require("./../ld-tools/generate/teams.json");
 var app = express();
 app.use(cors());
 app.get("/match-result/", function (httpRequest, httpResponse) {
