@@ -8,7 +8,7 @@ const teams: Team[] = require("../../ld-tools/generate/teams.json"),
     matchResults: MatchResult[] = require("../../../tmp/match-results.json");
 
 describe("match results - ", function() {
-    it("difference between GF and GA", function () {
+    it("-difference- calculation between GF and GA", function () {
 
         const divisionTableProps = createDivisionTableProps(teams, matchResults),
             diff = divisionTableProps.teamStatusList[0].goalsFor - divisionTableProps.teamStatusList[0].goalsAgainst;
@@ -19,7 +19,7 @@ describe("match results - ", function() {
         );
     });
 
-    it("second difference calculation between GF and GA", function () {
+    it("second -difference- calculation between GF and GA", function () {
 
         const divisionTableProps = createDivisionTableProps(teams, matchResults),
             diff = divisionTableProps.teamStatusList[7].goalsFor - divisionTableProps.teamStatusList[7].goalsAgainst;
@@ -30,7 +30,7 @@ describe("match results - ", function() {
         );
     });
 
-    it("third difference calculation between GF and GA", function () {
+    it("third -difference- calculation between GF and GA", function () {
 
         const divisionTableProps = createDivisionTableProps(teams, matchResults),
             diff = divisionTableProps.teamStatusList[12].goalsFor - divisionTableProps.teamStatusList[12].goalsAgainst;
@@ -87,7 +87,6 @@ describe("match results - ", function() {
                 }
             }
         }
-
         assert.strictEqual(
             divisionTableProps.teamStatusList.filter(t => t.name === "Chelsea")[0].points,
             winCounter * 3 + drawnCounter

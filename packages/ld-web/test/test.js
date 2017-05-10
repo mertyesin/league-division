@@ -3,15 +3,15 @@ var assert = require("assert");
 var props_factory_1 = require("../src/props-factory");
 var teams = require("../../ld-tools/generate/teams.json"), matchResults = require("../../../tmp/match-results.json");
 describe("match results - ", function () {
-    it("difference between GF and GA", function () {
+    it("-difference- calculation between GF and GA", function () {
         var divisionTableProps = props_factory_1.createDivisionTableProps(teams, matchResults), diff = divisionTableProps.teamStatusList[0].goalsFor - divisionTableProps.teamStatusList[0].goalsAgainst;
         assert.strictEqual(divisionTableProps.teamStatusList[0].difference, diff);
     });
-    it("second difference calculation between GF and GA", function () {
+    it("second -difference- calculation between GF and GA", function () {
         var divisionTableProps = props_factory_1.createDivisionTableProps(teams, matchResults), diff = divisionTableProps.teamStatusList[7].goalsFor - divisionTableProps.teamStatusList[7].goalsAgainst;
         assert.strictEqual(divisionTableProps.teamStatusList[7].difference, diff);
     });
-    it("third difference calculation between GF and GA", function () {
+    it("third -difference- calculation between GF and GA", function () {
         var divisionTableProps = props_factory_1.createDivisionTableProps(teams, matchResults), diff = divisionTableProps.teamStatusList[12].goalsFor - divisionTableProps.teamStatusList[12].goalsAgainst;
         assert.strictEqual(divisionTableProps.teamStatusList[12].difference, diff);
     });
