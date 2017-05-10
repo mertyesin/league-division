@@ -7,7 +7,7 @@ import {createDivisionTableProps} from "../src/props-factory";
 const teams: Team[] = require("../../ld-tools/generate/teams.json"),
     matchResults: MatchResult[] = require("../../../tmp/match-results.json");
 
-describe("match results - ", function() {
+describe("values should be consistent- ", function() {
     it("-difference- calculation between GF and GA", function () {
 
         const divisionTableProps = createDivisionTableProps(teams, matchResults),
