@@ -1,19 +1,21 @@
+#!/usr/bin/env node
+
 import * as fs from "fs";
-import {MatchResult} from "../ld-web/src/model";
-import {Team} from "../ld-web/src/model";
+import {MatchResult} from "../../../ld-web/src/model";
+import {Team} from "../../../ld-web/src/model";
 
 let matchResults: MatchResult[] = new Array(379);
 let count: number = 0;
-const teams: Team[] = require("../ld-tools/teams.json");
+const teams: Team[] = require("../teams.json");
 
-for(let i=0;i<20;i++){
+for (let i = 0; i < 20; i++) {
     let homeTeamName: string = teams[i].name;
     let awayTeamName: string;
-    for(let j=0;j<20;j++){
-        if(i == j){
+    for (let j = 0; j < 20; j++) {
+        if (i == j) {
             continue;
         }
-        else{
+        else {
             awayTeamName = teams[j].name;
         }
         matchResults[count] = {
@@ -24,5 +26,5 @@ for(let i=0;i<20;i++){
         };
         count++;
     }
-    fs.writeFileSync("match-results.json", JSON.stringify(matchResults, undefined, 2), {encoding: "utf-8"});
+    fs.writeFileSync("./tmp/match-results.json", JSON.stringify(matchResults, undefined, 2), {encoding: "utf-8"});
 }
