@@ -10,4 +10,3 @@ function createAppProps() {
     };
 }
 exports.createAppProps = createAppProps;
-//# sourceMappingURL=create-app-props.js.map

@@ -67,4 +67,3 @@ function _createTeamStatus(teamName, teamMatchResults) {
         points: points
     };
 }
-//# sourceMappingURL=create-division-table-props.js.map

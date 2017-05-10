@@ -13,4 +13,3 @@ function sortTeams(teamStatusList) {
     });
 }
 exports.sortTeams = sortTeams;
-//# sourceMappingURL=sort-teams.js.map
