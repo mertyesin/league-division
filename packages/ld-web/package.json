@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-webpack-dev-server":"webpack-dev-server"
+    "start-webpack-dev-server":"webpack-dev-server",
+    "test": "mocha"
+  },
+  "devDependencies": {
+  "mocha": "~3.0.1"
   },
   "dependencies": {
     "node-fetch": "1.6.0",
