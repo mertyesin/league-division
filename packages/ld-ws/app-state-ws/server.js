@@ -1,13 +1,17 @@
 "use strict";
 var express = require("express");
 var cors = require("cors");
-var matchResults = require("match-results.json");
-var teams = require("./../../ld-tools/generate/teams.json");
+var matchResults = require("../match-results.json");
+var teams = require("../../ld-tools/generate/teams.json");
+var initialAppState = require("./initial-app-state.json");
 var app = express();
 app.use(cors());
 app.get("/app-state", function (httpRequest, httpResponse) {
-    if (matchResults) {
-        sendResponse(httpResponse, matchResults);
+    var appState = initialAppState;
+    appState.matchResults = matchResults;
+    appState.teams = teams;
+    if (initialAppState) {
+        sendResponse(httpResponse, appState);
     }
     else {
         var newErr = "error details: match-results not found";
