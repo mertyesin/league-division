@@ -1,4 +1,12 @@
 "use strict";
+var __assign = (this && this.__assign) || Object.assign || function(t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+            t[p] = s[p];
+    }
+    return t;
+};
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
@@ -38,17 +46,19 @@ var React = require("react");
 var ReactDOM = require("react-dom");
 var node_fetch_1 = require("node-fetch");
 var components_1 = require("./components");
-var create_division_table_props_1 = require("./props-factory/create-division-table-props");
+var create_app_props_1 = require("./props-factory/create-app-props");
+var flux_1 = require("flux");
+var main_reducer_1 = require("./reducers/main-reducer");
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var matchResults, teams, err_1, newErr, err_2, newErr, divisionTableProps;
+        var appState, appProps, err_1, newErr, actionDispatcher;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, , 3]);
-                    return [4 /*yield*/, node_fetch_1.default('http://localhost:5000/match-result/', { timeout: 5000 }).then(function (r) { return r.json(); })];
+                    return [4 /*yield*/, node_fetch_1.default('http://localhost:5000/app-state/', { timeout: 5000 }).then(function (r) { return r.json(); })];
                 case 1:
-                    matchResults = (_a.sent());
+                    appState = (_a.sent());
                     return [3 /*break*/, 3];
                 case 2:
                     err_1 = _a.sent();
@@ -56,19 +66,14 @@ function main() {
                     console.error(newErr);
                     return [3 /*break*/, 3];
                 case 3:
-                    _a.trys.push([3, 5, , 6]);
-                    return [4 /*yield*/, node_fetch_1.default('http://localhost:5000/teams/', { timeout: 5000 }).then(function (r) { return r.json(); })];
-                case 4:
-                    teams = (_a.sent());
-                    return [3 /*break*/, 6];
-                case 5:
-                    err_2 = _a.sent();
-                    newErr = new Error("error in ws, error details: match-results not found");
-                    console.error(newErr);
-                    return [3 /*break*/, 6];
-                case 6:
-                    divisionTableProps = create_division_table_props_1.createDivisionTableProps(teams, matchResults);
-                    ReactDOM.render(React.createElement(components_1.App, { divisionTableProps: divisionTableProps }), document.getElementById('premier-league'));
+                    actionDispatcher = new flux_1.Dispatcher();
+                    appProps = create_app_props_1.createAppProps(appState);
+                    ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
+                    actionDispatcher.register(function (action) {
+                        appState = main_reducer_1.applyAction(appState, action); //reducerdan geliyor.
+                        appProps = create_app_props_1.createAppProps(appState);
+                        ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
+                    });
                     return [2 /*return*/];
             }
         });

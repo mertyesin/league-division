@@ -4,10 +4,10 @@ import {DivisionTableProps} from "../props/division-table-props";
 import {TeamStatus} from "../model/team-status";
 import {sortTeams} from "./helpers/sort-teams";
 
-function createDivisionTableProps(teams: Team[], matchResults: MatchResult[]): DivisionTableProps {
+function createDivisionTableProps(teams: Team[], matchResults: MatchResult[],orderBy: string): DivisionTableProps {
 
     const teamStatusList: TeamStatus[] = _createTeamStatusList(teams,matchResults),
-        sortedTeamStatusList: TeamStatus[] = sortTeams(teamStatusList);
+        sortedTeamStatusList: TeamStatus[] = sortTeams(teamStatusList,orderBy);
 
     return {
         teamStatusList: sortedTeamStatusList

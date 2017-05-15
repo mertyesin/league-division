@@ -1,7 +1,7 @@
 "use strict";
 var sort_teams_1 = require("./helpers/sort-teams");
-function createDivisionTableProps(teams, matchResults) {
-    var teamStatusList = _createTeamStatusList(teams, matchResults), sortedTeamStatusList = sort_teams_1.sortTeams(teamStatusList);
+function createDivisionTableProps(teams, matchResults, orderBy) {
+    var teamStatusList = _createTeamStatusList(teams, matchResults), sortedTeamStatusList = sort_teams_1.sortTeams(teamStatusList, orderBy);
     return {
         teamStatusList: sortedTeamStatusList
     };
@@ -67,3 +67,4 @@ function _createTeamStatus(teamName, teamMatchResults) {
         points: points
     };
 }
+//# sourceMappingURL=create-division-table-props.js.map

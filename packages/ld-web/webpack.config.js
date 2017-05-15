@@ -21,7 +21,8 @@ module.exports = {
     plugins: [
 
         new CopyWebpackPlugin([
-            {from: `${__dirname}/index.html`}
+            {from: `${__dirname}/index.html`},
+            {from: `${__dirname}/css`}
         ])
     ],
 

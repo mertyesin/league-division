@@ -1,27 +1,37 @@
 import * as React from "react";
 import {DivisionTableProps} from "../props";
-
+import PropTypes = React.PropTypes;
+import {Dispatcher} from "flux";
+import {ActionTags} from "../actions"
+import * as autobind from "autobind-decorator";
 
 class DivisionTable extends React.Component<DivisionTableProps, {}> {
-props: DivisionTableProps;
+    props: DivisionTableProps;
+
+    static contextTypes = {
+        actionDispatcher: PropTypes.object.isRequired
+    };
+
 
     render () {
-        return (
 
+        return (
             <div>
                 <table>
                     <tbody>
                         <tr>
                             <th>Teams</th>
-                            <th>P</th>
-                            <th>W</th>
-                            <th>L</th>
-                            <th>D</th>
-                            <th>GF</th>
-                            <th>GA</th>
-                            <th>GD</th>
-                            <th>Points</th>
+                            <th><button className="hand-button">P</button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></button></th>
                         </tr>
+                    </tbody>
+                    <tbody>
                         {
                             this.props.teamStatusList.map(t =>
                              <tr key={t.name}>
@@ -42,8 +52,19 @@ props: DivisionTableProps;
             </div>
         )
     }
-}
 
+    @autobind
+    onOrderChangeClicked(e: any) {
+        const actionDispatcher: Dispatcher<any> = this.context.actionDispatcher;
+        const newOrderBy: string = e.target.innerHTML;
+
+        actionDispatcher.dispatch({
+            tag: ActionTags.ORDER_CHANGE_REQUESTED,
+            newOrderBy: newOrderBy
+        });
+    }
+
+}
 export {
     DivisionTable
 }

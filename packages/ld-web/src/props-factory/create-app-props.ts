@@ -1,17 +1,17 @@
 import {Team} from "../model/team";
-import {AppProps} from "../props/app-props";
+import {MatchResult} from "../model/match-result";
 import {DivisionTableProps} from "../props/division-table-props";
 import {createDivisionTableProps} from "./create-division-table-props";
-import {MatchResult} from "../model/match-result";
+import {AppProps} from "../props/app-props";
+import {AppState} from "../../../ld/app-state";
 
-// import * as fetch from "node-fetch";
+function createAppProps(appState: AppState): AppProps {
 
-function createAppProps(): AppProps {
+    const teams: Team[] = appState.teams,
+        matchResults: MatchResult[] = appState.matchResults,
+        orderBy: string = appState.orderBy;
 
-    let matchResults: MatchResult[];
-    let teams: Team[];
-
-    const divisionTableProps: DivisionTableProps = createDivisionTableProps(teams, matchResults);
+    const divisionTableProps: DivisionTableProps = createDivisionTableProps(teams, matchResults, orderBy);
 
     return {
         divisionTableProps: divisionTableProps

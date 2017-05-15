@@ -56,3 +56,4 @@ describe("values should be consistent- ", function () {
         assert.strictEqual(divisionTableProps.teamStatusList.filter(function (t) { return t.name === "Chelsea"; })[0].points, winCounter * 3 + drawnCounter);
     });
 });
+//# sourceMappingURL=test.js.map
