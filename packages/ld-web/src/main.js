@@ -70,7 +70,7 @@ function main() {
                     appProps = props_factory_1.createAppProps(appState);
                     ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
                     actionDispatcher.register(function (action) {
-                        appState = main_reducer_1.applyAction(appState, action); // from main-reducer
+                        appState = main_reducer_1.mainReducer(appState, action); // from main-reducer
                         appProps = props_factory_1.createAppProps(appState);
                         ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
                     });

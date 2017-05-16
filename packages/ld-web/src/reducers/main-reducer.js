@@ -1,7 +1,14 @@
 "use strict";
-function applyAction(appState, action) {
-    appState.orderBy = action.newOrderBy;
-    return appState;
+var order_change_requested_1 = require("./app-state-reducers/order-change-requested");
+var team_fixture_display_requested_1 = require("./app-state-reducers/team-fixture-display-requested");
+var ActionTags = require("../actions/tags");
+function mainReducer(appState, action) {
+    switch (action.tag) {
+        case ActionTags.ORDER_CHANGE_REQUESTED:
+            return order_change_requested_1.orderChangeRequested(appState, action);
+        case ActionTags.TEAM_FIXTURE_DISPLAY_REQUESTED:
+            return team_fixture_display_requested_1.teamFixtureDisplayRequested(appState, action);
+    }
 }
-exports.applyAction = applyAction;
+exports.mainReducer = mainReducer;
 //# sourceMappingURL=main-reducer.js.map

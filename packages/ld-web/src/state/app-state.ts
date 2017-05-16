@@ -4,7 +4,8 @@ import {MatchResult} from "../model";
 interface AppState {
     teams: Team[],
     matchResults: MatchResult[],
-    orderBy: "P" | "W" | "L" | "D" | "GF" | "GA" | "GD" | "Points"
+    orderBy: "P" | "W" | "L" | "D" | "GF" | "GA" | "GD" | "Points",
+    displayFixtureOf: string
 }
 
 export {

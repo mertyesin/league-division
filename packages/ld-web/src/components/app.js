@@ -8,6 +8,7 @@ var React = require("react");
 var division_table_1 = require("./division-table");
 var flux_1 = require("flux");
 var PropTypes = React.PropTypes;
+var fixture_table_1 = require("./fixture-table");
 var App = (function (_super) {
     __extends(App, _super);
     function App() {
@@ -19,7 +20,9 @@ var App = (function (_super) {
         };
     };
     App.prototype.render = function () {
-        return (React.createElement(division_table_1.DivisionTable, { teamStatusList: this.props.divisionTableProps.teamStatusList }));
+        return (React.createElement("div", null,
+            React.createElement(division_table_1.DivisionTable, { teamStatusList: this.props.divisionTableProps.teamStatusList }),
+            React.createElement(fixture_table_1.FixtureTable, { matchResults: this.props.matchResults, teamName: this.props.displayFixtureOf })));
     };
     return App;
 }(React.Component));

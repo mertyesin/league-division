@@ -7,7 +7,7 @@ import {createAppProps} from "./props-factory";
 import {Dispatcher} from "flux";
 import {AppProps} from "./props";
 import {AppState} from "../../ld";
-import {applyAction} from "./reducers/main-reducer";
+import {mainReducer} from "./reducers/main-reducer";
 import {Action} from "./actions/action";
 
 async function main() {
@@ -38,7 +38,7 @@ async function main() {
     );
 
     actionDispatcher.register((action: Action)  => {
-        appState = applyAction(appState, action); // from main-reducer
+        appState = mainReducer(appState, action); // from main-reducer
         appProps = createAppProps(appState);
         ReactDOM.render(
             <App {...appProps} actionDispatcher={actionDispatcher}/>

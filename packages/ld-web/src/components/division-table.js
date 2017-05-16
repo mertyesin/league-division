@@ -20,6 +20,7 @@ var DivisionTable = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     DivisionTable.prototype.render = function () {
+        var _this = this;
         return (React.createElement("div", null,
             React.createElement("table", null,
                 React.createElement("tbody", null,
@@ -50,7 +51,8 @@ var DivisionTable = (function (_super) {
                                 React.createElement("a", { onClick: this.onOrderChangeClicked }, "Points"))))),
                 React.createElement("tbody", null, this.props.teamStatusList.map(function (t) {
                     return React.createElement("tr", { key: t.name },
-                        React.createElement("td", null, t.name),
+                        React.createElement("td", null,
+                            React.createElement("a", { onClick: _this.onTeamClicked }, t.name)),
                         React.createElement("td", null, t.played),
                         React.createElement("td", null, t.win),
                         React.createElement("td", null, t.lost),
@@ -69,6 +71,14 @@ var DivisionTable = (function (_super) {
             newOrderBy: newOrderBy
         });
     };
+    DivisionTable.prototype.onTeamClicked = function (e) {
+        var actionDispatcher = this.context.actionDispatcher;
+        var displayFixtureName = e.target.innerHTML;
+        actionDispatcher.dispatch({
+            tag: actions_1.ActionTags.TEAM_FIXTURE_DISPLAY_REQUESTED,
+            displayFixtureName: displayFixtureName
+        });
+    };
     return DivisionTable;
 }(React.Component));
 DivisionTable.contextTypes = {
@@ -77,5 +87,8 @@ DivisionTable.contextTypes = {
 __decorate([
     autobind
 ], DivisionTable.prototype, "onOrderChangeClicked", null);
+__decorate([
+    autobind
+], DivisionTable.prototype, "onTeamClicked", null);
 exports.DivisionTable = DivisionTable;
 //# sourceMappingURL=division-table.js.map

@@ -5,6 +5,7 @@ interface AppState {
     teams: Team[],
     matchResults: MatchResult[],
     orderBy: string
+    displayFixtureName: string
 }
 
 export {

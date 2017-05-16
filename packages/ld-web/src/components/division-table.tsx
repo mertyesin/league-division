@@ -35,7 +35,7 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                     {
                         this.props.teamStatusList.map(t =>
                             <tr key={t.name}>
-                                <td>{t.name}</td>
+                                <td><a onClick={this.onTeamClicked}>{t.name}</a></td>
                                 <td>{t.played}</td>
                                 <td>{t.win}</td>
                                 <td>{t.lost}</td>
@@ -61,6 +61,17 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
         actionDispatcher.dispatch({
             tag: ActionTags.ORDER_CHANGE_REQUESTED,
             newOrderBy: newOrderBy
+        });
+    }
+
+    @autobind
+    onTeamClicked(e: any) {
+        const actionDispatcher: Dispatcher<any> = this.context.actionDispatcher;
+        const displayFixtureName: string = e.target.innerHTML;
+
+        actionDispatcher.dispatch({
+            tag: ActionTags.TEAM_FIXTURE_DISPLAY_REQUESTED,
+            displayFixtureName: displayFixtureName
         });
     }
 

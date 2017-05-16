@@ -3,9 +3,15 @@ interface OrderChangeRequested {
     newOrderBy: string
 }
 
-type Action = OrderChangeRequested;
+interface TeamFixtureDisplayRequested {
+    tag: "TEAM_FIXTURE_DISPLAY_REQUESTED",
+    displayFixtureName: string
+}
+
+type Action = OrderChangeRequested | TeamFixtureDisplayRequested;
 
 export {
     OrderChangeRequested,
+    TeamFixtureDisplayRequested,
     Action
 }
