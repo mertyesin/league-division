@@ -1,6 +1,6 @@
 import * as React from "react";
-import {DivisionTableProps} from "../props";
 import PropTypes = React.PropTypes;
+import {DivisionTableProps} from "../props";
 import {Dispatcher} from "flux";
 import {ActionTags} from "../actions"
 import * as autobind from "autobind-decorator";
@@ -19,22 +19,22 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
             <div>
                 <table>
                     <tbody>
-                        <tr>
-                            <th>Teams</th>
-                            <th><button className="hand-button">P</button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></button></th>
-                        </tr>
+                    <tr>
+                        <th>Teams</th>
+                        <th><button className="hand-button">P</button></th>
+                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></button></th>
+                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></button></th>
+                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></button></th>
+                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></button></th>
+                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></button></th>
+                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></button></th>
+                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></button></th>
+                    </tr>
                     </tbody>
                     <tbody>
-                        {
-                            this.props.teamStatusList.map(t =>
-                             <tr key={t.name}>
+                    {
+                        this.props.teamStatusList.map(t =>
+                            <tr key={t.name}>
                                 <td>{t.name}</td>
                                 <td>{t.played}</td>
                                 <td>{t.win}</td>
@@ -45,8 +45,8 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                                 <td>{t.difference}</td>
                                 <td>{t.points}</td>
                             </tr>
-                            )
-                        }
+                        )
+                    }
                     </tbody>
                 </table>
             </div>

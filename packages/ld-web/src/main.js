@@ -46,7 +46,7 @@ var React = require("react");
 var ReactDOM = require("react-dom");
 var node_fetch_1 = require("node-fetch");
 var components_1 = require("./components");
-var create_app_props_1 = require("./props-factory/create-app-props");
+var props_factory_1 = require("./props-factory");
 var flux_1 = require("flux");
 var main_reducer_1 = require("./reducers/main-reducer");
 function main() {
@@ -67,11 +67,11 @@ function main() {
                     return [3 /*break*/, 3];
                 case 3:
                     actionDispatcher = new flux_1.Dispatcher();
-                    appProps = create_app_props_1.createAppProps(appState);
+                    appProps = props_factory_1.createAppProps(appState);
                     ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
                     actionDispatcher.register(function (action) {
-                        appState = main_reducer_1.applyAction(appState, action); //reducerdan geliyor.
-                        appProps = create_app_props_1.createAppProps(appState);
+                        appState = main_reducer_1.applyAction(appState, action); // from main-reducer
+                        appProps = props_factory_1.createAppProps(appState);
                         ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
                     });
                     return [2 /*return*/];

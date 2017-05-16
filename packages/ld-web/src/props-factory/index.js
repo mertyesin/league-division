@@ -1,5 +1,6 @@
 "use strict";
-// import {createAppProps} from "./create-app-props";
+var create_app_props_1 = require("./create-app-props");
+exports.createAppProps = create_app_props_1.createAppProps;
 var create_division_table_props_1 = require("./create-division-table-props");
 exports.createDivisionTableProps = create_division_table_props_1.createDivisionTableProps;
 var sort_teams_1 = require("./helpers/sort-teams");

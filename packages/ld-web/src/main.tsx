@@ -3,11 +3,12 @@ import * as ReactDOM from "react-dom";
 import fetch from 'node-fetch';
 
 import {App} from "./components";
-import {createAppProps} from "./props-factory/create-app-props";
+import {createAppProps} from "./props-factory";
 import {Dispatcher} from "flux";
-import {AppProps} from "./props/app-props";
-import {AppState} from "../../ld/app-state";
+import {AppProps} from "./props";
+import {AppState} from "../../ld";
 import {applyAction} from "./reducers/main-reducer";
+import {Action} from "./actions/action";
 
 async function main() {
 
@@ -29,15 +30,15 @@ async function main() {
     ReactDOM.render(
         <App {...appProps} actionDispatcher={actionDispatcher}/>
     /**
-     * App, props olarak aldigi dispatcher'i context olarak childrenlarina verecek.
-     * App, getChildContext() i implement edecek, childrenlar contextTypes: da actionDispatcher'i istedigini belirtecek.
-     * onclick vb event handlerlarinda ilgili componentler actionDispatcher.dispatch({}) yazarak action firlaticak.
+     * 'App' gets 'dispatcher' as props ,gives to the children as context.
+     * 'App' implements getChildContext() ,children implements 'contextTypes' to require 'actionDispatcher'.
+     * Components throw action with 'actionDispatcher.dispatch({})'.
      */
         ,document.getElementById('premier-league')
     );
 
-    actionDispatcher.register(action  => {
-        appState = applyAction(appState, action); //reducerdan geliyor.
+    actionDispatcher.register((action: Action)  => {
+        appState = applyAction(appState, action); // from main-reducer
         appProps = createAppProps(appState);
         ReactDOM.render(
             <App {...appProps} actionDispatcher={actionDispatcher}/>
