@@ -8,3 +8,5 @@ Premier League Division Creator
 * 3- in ld-ws folder, run `npm start` (to start web-services)
 * 4- in ld-web folder, run `npm run start-webpack-dev-server`
 * 5- and go to http://localhost:8001/
+
+![Alt text](/Users/mert/Works/league-division/packages/ld-web/images/league-div-screenshot.png)

@@ -22,13 +22,13 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                         <tr>
                             <th>Teams</th>
                             <th>P</th>
-                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>W</a></th>
-                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>L</a></th>
-                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>D</a></th>
-                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>GF</a></th>
-                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>GA</a></th>
-                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>GD</a></th>
-                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>Points</a></th>
+                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></th>
+                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></th>
+                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></th>
+                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></th>
+                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></th>
+                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></th>
+                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></th>
                         </tr>
                     </tbody>
                     <tbody>
