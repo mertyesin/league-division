@@ -73,10 +73,10 @@ var DivisionTable = (function (_super) {
     };
     DivisionTable.prototype.onTeamClicked = function (e) {
         var actionDispatcher = this.context.actionDispatcher;
-        var displayFixtureName = e.target.innerHTML;
+        var teamName = e.target.innerHTML;
         actionDispatcher.dispatch({
             tag: actions_1.ActionTags.TEAM_FIXTURE_DISPLAY_REQUESTED,
-            displayFixtureName: displayFixtureName
+            teamName: teamName
         });
     };
     return DivisionTable;

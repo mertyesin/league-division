@@ -4,12 +4,14 @@ var cors = require("cors");
 var matchResults = require("../match-results.json");
 var teams = require("../../ld-tools/generate/teams.json");
 var initialAppState = require("./initial-app-state.json");
+var displayFixtureOf = initialAppState.displayFixtureOf;
 var app = express();
 app.use(cors());
 app.get("/app-state", function (httpRequest, httpResponse) {
     var appState = initialAppState;
     appState.matchResults = matchResults;
     appState.teams = teams;
+    appState.displayFixtureOf = displayFixtureOf;
     if (initialAppState) {
         sendResponse(httpResponse, appState);
     }

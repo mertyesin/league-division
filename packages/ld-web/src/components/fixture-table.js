@@ -4,47 +4,25 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
 var React = require("react");
-var PropTypes = React.PropTypes;
-var actions_1 = require("../actions");
-var autobind = require("autobind-decorator");
 var FixtureTable = (function (_super) {
     __extends(FixtureTable, _super);
     function FixtureTable() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     FixtureTable.prototype.render = function () {
-        return (React.createElement("div", null,
+        var _this = this;
+        return (React.createElement("div", { className: "div-fixed" },
             React.createElement("table", null,
                 React.createElement("tbody", null,
                     React.createElement("tr", null,
                         React.createElement("th", null, "Matches"))),
-                React.createElement("tbody", null, this.props.matchResults.map(function (m) {
-                    return React.createElement("tr", null,
-                        React.createElement("td", null, m.homeTeamName + " " + m.homeGoals + "-" + m.awayGoals + " " + m.awayTeamName));
+                React.createElement("tbody", null, this.props.matchResults.filter(function (m) { return m.homeTeamName === _this.props.teamName || m.awayTeamName === _this.props.teamName; }).map(function (t, i) {
+                    return React.createElement("tr", { key: i },
+                        React.createElement("td", null, t.homeTeamName + " " + t.homeGoals + "-" + t.awayGoals + " " + t.awayTeamName));
                 })))));
-    };
-    FixtureTable.prototype.onTeamClicked = function (e) {
-        var actionDispatcher = this.context.actionDispatcher;
-        var displayFixtureName = e.target.innerHTML;
-        actionDispatcher.dispatch({
-            tag: actions_1.ActionTags.TEAM_FIXTURE_DISPLAY_REQUESTED,
-            displayFixtureName: displayFixtureName
-        });
     };
     return FixtureTable;
 }(React.Component));
-FixtureTable.contextTypes = {
-    actionDispatcher: PropTypes.object.isRequired
-};
-__decorate([
-    autobind
-], FixtureTable.prototype, "onTeamClicked", null);
 exports.FixtureTable = FixtureTable;
 //# sourceMappingURL=fixture-table.js.map

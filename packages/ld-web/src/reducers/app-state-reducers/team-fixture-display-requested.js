@@ -1,6 +1,6 @@
 "use strict";
 function teamFixtureDisplayRequested(appState, action) {
-    appState.displayFixtureName = action.displayFixtureName;
+    appState.displayFixtureOf = action.teamName;
     return appState;
 }
 exports.teamFixtureDisplayRequested = teamFixtureDisplayRequested;

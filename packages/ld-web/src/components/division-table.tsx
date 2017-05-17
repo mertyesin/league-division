@@ -12,24 +12,23 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
         actionDispatcher: PropTypes.object.isRequired
     };
 
-
     render () {
 
         return (
             <div>
                 <table>
                     <tbody>
-                    <tr>
-                        <th>Teams</th>
-                        <th><button className="hand-button">P</button></th>
-                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></button></th>
-                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></button></th>
-                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></button></th>
-                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></button></th>
-                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></button></th>
-                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></button></th>
-                        <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></button></th>
-                    </tr>
+                        <tr>
+                            <th>Teams</th>
+                            <th><button className="hand-button">P</button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></button></th>
+                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></button></th>
+                        </tr>
                     </tbody>
                     <tbody>
                     {
@@ -67,11 +66,11 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
     @autobind
     onTeamClicked(e: any) {
         const actionDispatcher: Dispatcher<any> = this.context.actionDispatcher;
-        const displayFixtureName: string = e.target.innerHTML;
+        const teamName: string = e.target.innerHTML;
 
         actionDispatcher.dispatch({
             tag: ActionTags.TEAM_FIXTURE_DISPLAY_REQUESTED,
-            displayFixtureName: displayFixtureName
+            teamName: teamName
         });
     }
 

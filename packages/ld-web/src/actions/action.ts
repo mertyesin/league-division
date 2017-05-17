@@ -5,7 +5,7 @@ interface OrderChangeRequested {
 
 interface TeamFixtureDisplayRequested {
     tag: "TEAM_FIXTURE_DISPLAY_REQUESTED",
-    displayFixtureName: string
+    teamName: string
 }
 
 type Action = OrderChangeRequested | TeamFixtureDisplayRequested;

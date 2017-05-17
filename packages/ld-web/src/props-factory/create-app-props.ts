@@ -10,7 +10,7 @@ function createAppProps(appState: AppState): AppProps {
     const teams: Team[] = appState.teams,
         matchResults: MatchResult[] = appState.matchResults,
         orderBy: string = appState.orderBy,
-        displayFixtureOf: string = appState.displayFixtureName;
+        displayFixtureOf: string = appState.displayFixtureOf;
 
     const divisionTableProps: DivisionTableProps = createDivisionTableProps(teams, matchResults, orderBy);
 

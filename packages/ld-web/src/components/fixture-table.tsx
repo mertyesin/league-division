@@ -1,21 +1,14 @@
 import * as React from "react";
 import PropTypes = React.PropTypes;
-import {Dispatcher} from "flux";
-import {ActionTags} from "../actions"
-import * as autobind from "autobind-decorator";
 import {FixtureTableProps} from "../props/fixture-table-props";
 
 class FixtureTable extends React.Component<FixtureTableProps, {}> {
     props: FixtureTableProps;
 
-    static contextTypes = {
-        actionDispatcher: PropTypes.object.isRequired
-    };
-
     render () {
 
         return (
-            <div>
+            <div className="div-fixed">
                 <table>
                     <tbody>
                     <tr>
@@ -24,12 +17,12 @@ class FixtureTable extends React.Component<FixtureTableProps, {}> {
                     </tbody>
                     <tbody>
                     {
-                        this.props.matchResults.map(m =>
-                        <tr>
-                            <td>
-                                {m.homeTeamName + " " + m.homeGoals + "-" + m.awayGoals + " " + m.awayTeamName }
-                            </td>
-                        </tr>
+                        this.props.matchResults.filter(m => m.homeTeamName === this.props.teamName || m.awayTeamName === this.props.teamName).map((t,i) =>
+                           <tr key={i}>
+                               <td>
+                                   {t.homeTeamName + " " + t.homeGoals + "-" + t.awayGoals + " " + t.awayTeamName }
+                               </td>
+                           </tr>
 
                         )
                     }
@@ -37,17 +30,6 @@ class FixtureTable extends React.Component<FixtureTableProps, {}> {
                 </table>
             </div>
         )
-    }
-
-    @autobind
-    onTeamClicked(e: any) {
-        const actionDispatcher: Dispatcher<any> = this.context.actionDispatcher;
-        const displayFixtureName: string = e.target.innerHTML;
-
-        actionDispatcher.dispatch({
-            tag: ActionTags.TEAM_FIXTURE_DISPLAY_REQUESTED,
-            displayFixtureName: displayFixtureName
-        });
     }
 
 }
