@@ -5,7 +5,7 @@ import {MatchResult} from "../src/model";
 import {createDivisionTableProps} from "../src/props-factory";
 
 const teams: Team[] = require("../../ld-tools/generate/teams.json"),
-    matchResults: MatchResult[] = require("../../../tmp/match-results.json");
+    matchResults: MatchResult[] = require("../../ld-ws/match-results.json");
 
 describe("values should be consistent- ", function() {
     it("-difference- calculation between GF and GA", function () {

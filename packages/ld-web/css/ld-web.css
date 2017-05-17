@@ -10,15 +10,17 @@
 
 .fixtureTable {
     height: 400px;
-    width: 300px;
+    width: 350px;
     font-family: sans-serif;
     margin-left: 600px;
 }
 
-a {
-
+/* mouse over link */
+a:hover {
+    color: red;
 }
 
+/* selected link */
 a:active {
-    color: red;
+    color: darkred;
 }

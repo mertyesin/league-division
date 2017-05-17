@@ -1,7 +1,7 @@
 "use strict";
 var assert = require("assert");
 var props_factory_1 = require("../src/props-factory");
-var teams = require("../../ld-tools/generate/teams.json"), matchResults = require("../../../tmp/match-results.json");
+var teams = require("../../ld-tools/generate/teams.json"), matchResults = require("../../ld-ws/match-results.json");
 describe("values should be consistent- ", function () {
     it("-difference- calculation between GF and GA", function () {
         var divisionTableProps = props_factory_1.createDivisionTableProps(teams, matchResults), diff = divisionTableProps.teamStatusList[0].goalsFor - divisionTableProps.teamStatusList[0].goalsAgainst;
@@ -56,4 +56,3 @@ describe("values should be consistent- ", function () {
         assert.strictEqual(divisionTableProps.teamStatusList.filter(function (t) { return t.name === "Chelsea"; })[0].points, winCounter * 3 + drawnCounter);
     });
 });
-//# sourceMappingURL=test.js.map
