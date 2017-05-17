@@ -51,9 +51,11 @@ var DivisionTable = (function (_super) {
                         React.createElement("th", null,
                             React.createElement("button", { className: "hand-button" },
                                 React.createElement("a", { onClick: this.onOrderChangeClicked }, "Points"))))),
-                React.createElement("tbody", null, this.props.teamStatusList.map(function (t) {
+                React.createElement("tbody", null, this.props.teamStatusList.map(function (t, i) {
                     return React.createElement("tr", { key: t.name },
                         React.createElement("td", null,
+                            ++i,
+                            ". ",
                             React.createElement("a", { className: "hand-button", onClick: _this.onTeamClicked }, t.name)),
                         React.createElement("td", null, t.played),
                         React.createElement("td", null, t.win),

@@ -33,9 +33,9 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                     </tbody>
                     <tbody>
                     {
-                        this.props.teamStatusList.map(t =>
+                        this.props.teamStatusList.map((t,i) =>
                             <tr key={t.name}>
-                                <td><a className="hand-button" onClick={this.onTeamClicked}>{t.name}</a></td>
+                                <td>{++i}. <a className="hand-button" onClick={this.onTeamClicked}>{t.name}</a></td>
                                 <td>{t.played}</td>
                                 <td>{t.win}</td>
                                 <td>{t.lost}</td>
