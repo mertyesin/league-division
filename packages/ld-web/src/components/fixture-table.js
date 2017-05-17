@@ -12,8 +12,8 @@ var FixtureTable = (function (_super) {
     }
     FixtureTable.prototype.render = function () {
         var _this = this;
-        return (React.createElement("div", { className: "div-fixed" },
-            React.createElement("table", null,
+        return (React.createElement("div", null,
+            React.createElement("table", { className: "fixtureTable" },
                 React.createElement("tbody", null,
                     React.createElement("tr", null,
                         React.createElement("th", null, "Matches"))),

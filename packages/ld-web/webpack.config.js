@@ -6,8 +6,9 @@ const ENTRY_PATH = path.join(__dirname, "/src/main.js"),
     OUTPUT_PATH = path.join(__dirname, "dist");
 
 module.exports = {
-    entry: [ENTRY_PATH],
-
+    entry: [
+        ENTRY_PATH
+    ],
     output: {
         path: OUTPUT_PATH,
         filename: "bundle.js"
@@ -19,10 +20,15 @@ module.exports = {
     },
 
     plugins: [
+        new CleanWebpackPlugin([OUTPUT_PATH], {
+            root: __dirname,
+            verbose: true
+        }),
 
         new CopyWebpackPlugin([
             {from: `${__dirname}/index.html`},
-            {from: `${__dirname}/css`}
+            {from: `${__dirname}/css`, to:"css"},
+            {from: `${__dirname}/images`, to: "images"}
         ])
     ],
 

@@ -1,11 +1,17 @@
+
 .hand-button {
-    color: blue;
     cursor: pointer;
 }
 
-.div-fixed {
-    position: fixed;
-    bottom: 100px;
-    right: 1000px;;
-    width: 300px
+.divisionTable {
+    width: 50%;
+    height: 10px;
+    font-family: sans-serif;
+}
+
+.fixtureTable {
+    height: 400px;
+    width: 300px;
+    font-family: sans-serif;
+    margin-left: 600px;
 }

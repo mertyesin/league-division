@@ -8,8 +8,8 @@ class FixtureTable extends React.Component<FixtureTableProps, {}> {
     render () {
 
         return (
-            <div className="div-fixed">
-                <table>
+            <div>
+                <table className="fixtureTable">
                     <tbody>
                     <tr>
                         <th>Matches</th>

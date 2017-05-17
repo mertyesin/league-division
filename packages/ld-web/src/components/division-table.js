@@ -21,13 +21,15 @@ var DivisionTable = (function (_super) {
     }
     DivisionTable.prototype.render = function () {
         var _this = this;
-        return (React.createElement("div", null,
+        return (React.createElement("div", { className: "divisionTable" },
             React.createElement("table", null,
                 React.createElement("tbody", null,
+                    React.createElement("th", null,
+                        React.createElement("img", { src: "./images/premier-league-logo.png", width: "200", height: "40" })),
                     React.createElement("tr", null,
                         React.createElement("th", null, "Teams"),
                         React.createElement("th", null,
-                            React.createElement("button", { className: "hand-button" }, "P")),
+                            React.createElement("button", null, "P")),
                         React.createElement("th", null,
                             React.createElement("button", { className: "hand-button" },
                                 React.createElement("a", { onClick: this.onOrderChangeClicked }, "W"))),
@@ -52,7 +54,7 @@ var DivisionTable = (function (_super) {
                 React.createElement("tbody", null, this.props.teamStatusList.map(function (t) {
                     return React.createElement("tr", { key: t.name },
                         React.createElement("td", null,
-                            React.createElement("a", { onClick: _this.onTeamClicked }, t.name)),
+                            React.createElement("a", { className: "hand-button", onClick: _this.onTeamClicked }, t.name)),
                         React.createElement("td", null, t.played),
                         React.createElement("td", null, t.win),
                         React.createElement("td", null, t.lost),

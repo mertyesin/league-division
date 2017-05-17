@@ -15,12 +15,13 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
     render () {
 
         return (
-            <div>
+            <div className="divisionTable">
                 <table>
                     <tbody>
+                    <th><img src="./images/premier-league-logo.png" width="200" height="40"/></th>
                         <tr>
                             <th>Teams</th>
-                            <th><button className="hand-button">P</button></th>
+                            <th><button>P</button></th>
                             <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></button></th>
                             <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></button></th>
                             <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></button></th>
@@ -34,7 +35,7 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                     {
                         this.props.teamStatusList.map(t =>
                             <tr key={t.name}>
-                                <td><a onClick={this.onTeamClicked}>{t.name}</a></td>
+                                <td><a className="hand-button" onClick={this.onTeamClicked}>{t.name}</a></td>
                                 <td>{t.played}</td>
                                 <td>{t.win}</td>
                                 <td>{t.lost}</td>
