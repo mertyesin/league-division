@@ -21,14 +21,14 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                     <th><img src="./images/premier-league-logo.png" width="200" height="40"/></th>
                         <tr>
                             <th>Teams</th>
-                            <th><button>P</button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></button></th>
-                            <th><button className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></button></th>
+                            <th>P</th>
+                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>W</a></th>
+                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>L</a></th>
+                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>D</a></th>
+                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>GF</a></th>
+                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>GA</a></th>
+                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>GD</a></th>
+                            <th className="hand-button" ><a onClick={this.onOrderChangeClicked}>Points</a></th>
                         </tr>
                     </tbody>
                     <tbody>
