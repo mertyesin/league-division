@@ -56,6 +56,7 @@ function _createTeamStatus(teamName, teamMatchResults) {
         }
     } // end of for
     return {
+        logoPath: "./images/" + teamName.replace(/ /g, '') + ".png",
         name: teamName,
         played: played,
         win: win,
@@ -67,3 +68,4 @@ function _createTeamStatus(teamName, teamMatchResults) {
         points: points
     };
 }
+//# sourceMappingURL=create-division-table-props.js.map

@@ -18,7 +18,7 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
             <div className="divisionTable">
                 <table>
                     <tbody>
-                    <th><img src="./images/premier-league-logo.png" width="200" height="40"/></th>
+                    <img src="./images/premier-league-logo.png" width="200" height="40"/>
                         <tr>
                             <th>Teams</th>
                             <th>P</th>
@@ -35,7 +35,7 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                     {
                         this.props.teamStatusList.map((t,i) =>
                             <tr key={t.name}>
-                                <td>{++i}. <a className="hand-button" onClick={this.onTeamClicked}>{t.name}</a></td>
+                                <td>{++i}.<img src={t.logoPath} width="15" height="15"/><a className="hand-button" onClick={this.onTeamClicked}>{t.name}</a></td>
                                 <td>{t.played}</td>
                                 <td>{t.win}</td>
                                 <td>{t.lost}</td>

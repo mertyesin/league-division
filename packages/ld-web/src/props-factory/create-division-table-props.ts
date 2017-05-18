@@ -79,6 +79,7 @@ function _createTeamStatus(teamName: string, teamMatchResults: MatchResult[]): T
     }// end of for
 
     return {
+        logoPath: "./images/" + teamName.replace(/ /g,'') + ".png",
         name: teamName,
         played: played,
         win: win,
