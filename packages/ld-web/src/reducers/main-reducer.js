@@ -1,7 +1,7 @@
 "use strict";
-var order_change_requested_1 = require("./app-state-reducers/order-change-requested");
-var team_fixture_display_requested_1 = require("./app-state-reducers/team-fixture-display-requested");
-var ActionTags = require("../actions/tags");
+const order_change_requested_1 = require("./app-state-reducers/order-change-requested");
+const team_fixture_display_requested_1 = require("./app-state-reducers/team-fixture-display-requested");
+const ActionTags = require("../actions/tags");
 function mainReducer(appState, action) {
     switch (action.tag) {
         case ActionTags.ORDER_CHANGE_REQUESTED:

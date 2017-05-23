@@ -1,6 +1,6 @@
 "use strict";
-var ActionTags = require("./tags");
+const ActionTags = require("./tags");
 exports.ActionTags = ActionTags;
-var Action = require("./action");
+const Action = require("./action");
 exports.Action = Action;
 //# sourceMappingURL=index.js.map

@@ -22,5 +22,5 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: darkred;
+    color: red;
 }

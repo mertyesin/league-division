@@ -1,26 +1,16 @@
 "use strict";
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-var React = require("react");
+const React = require("react");
 var PropTypes = React.PropTypes;
-var actions_1 = require("../actions");
-var autobind = require("autobind-decorator");
-var DivisionTable = (function (_super) {
-    __extends(DivisionTable, _super);
-    function DivisionTable() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    DivisionTable.prototype.render = function () {
-        var _this = this;
+const actions_1 = require("../actions");
+const autobind = require("autobind-decorator");
+class DivisionTable extends React.Component {
+    render() {
         return (React.createElement("div", { className: "divisionTable" },
             React.createElement("table", null,
                 React.createElement("tbody", null,
@@ -42,41 +32,38 @@ var DivisionTable = (function (_super) {
                             React.createElement("a", { onClick: this.onOrderChangeClicked }, "GD")),
                         React.createElement("th", { className: "hand-button" },
                             React.createElement("a", { onClick: this.onOrderChangeClicked }, "Points")))),
-                React.createElement("tbody", null, this.props.teamStatusList.map(function (t, i) {
-                    return React.createElement("tr", { key: t.name },
-                        React.createElement("td", null,
-                            ++i,
-                            ".",
-                            React.createElement("img", { src: t.logoPath, width: "15", height: "15" }),
-                            React.createElement("a", { className: "hand-button", onClick: _this.onTeamClicked }, t.name)),
-                        React.createElement("td", null, t.played),
-                        React.createElement("td", null, t.win),
-                        React.createElement("td", null, t.lost),
-                        React.createElement("td", null, t.drawn),
-                        React.createElement("td", null, t.goalsFor),
-                        React.createElement("td", null, t.goalsAgainst),
-                        React.createElement("td", null, t.difference),
-                        React.createElement("td", null, t.points));
-                })))));
-    };
-    DivisionTable.prototype.onOrderChangeClicked = function (e) {
-        var actionDispatcher = this.context.actionDispatcher;
-        var newOrderBy = e.target.innerHTML;
+                React.createElement("tbody", null, this.props.teamStatusList.map((t, i) => React.createElement("tr", { key: t.name },
+                    React.createElement("td", null,
+                        ++i,
+                        ".",
+                        React.createElement("img", { src: t.logoPath, width: "15", height: "15" }),
+                        React.createElement("a", { className: "hand-button", onClick: this.onTeamClicked }, t.name)),
+                    React.createElement("td", null, t.played),
+                    React.createElement("td", null, t.win),
+                    React.createElement("td", null, t.lost),
+                    React.createElement("td", null, t.drawn),
+                    React.createElement("td", null, t.goalsFor),
+                    React.createElement("td", null, t.goalsAgainst),
+                    React.createElement("td", null, t.difference),
+                    React.createElement("td", null, t.points)))))));
+    }
+    onOrderChangeClicked(e) {
+        const actionDispatcher = this.context.actionDispatcher;
+        const newOrderBy = e.target.innerHTML;
         actionDispatcher.dispatch({
             tag: actions_1.ActionTags.ORDER_CHANGE_REQUESTED,
             newOrderBy: newOrderBy
         });
-    };
-    DivisionTable.prototype.onTeamClicked = function (e) {
-        var actionDispatcher = this.context.actionDispatcher;
-        var teamName = e.target.innerHTML;
+    }
+    onTeamClicked(e) {
+        const actionDispatcher = this.context.actionDispatcher;
+        const teamName = e.target.innerHTML;
         actionDispatcher.dispatch({
             tag: actions_1.ActionTags.TEAM_FIXTURE_DISPLAY_REQUESTED,
             teamName: teamName
         });
-    };
-    return DivisionTable;
-}(React.Component));
+    }
+}
 DivisionTable.contextTypes = {
     actionDispatcher: PropTypes.object.isRequired
 };

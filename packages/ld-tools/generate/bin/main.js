@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 "use strict";
-var fs = require("fs");
+var fs = require("fs-extra");
+var dir = './tmp';
+if (!fs.existsSync(dir)) {
+    fs.mkdirpSync(dir);
+}
 var matchResults = new Array(379);
 var count = 0;
 var teams = require("../teams.json");

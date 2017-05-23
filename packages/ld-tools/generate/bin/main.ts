@@ -1,8 +1,13 @@
 #!/usr/bin/env node
 
-import * as fs from "fs";
+import * as fs from "fs-extra";
 import {MatchResult} from "../../../ld-web/src/model";
 import {Team} from "../../../ld-web/src/model";
+
+var dir = './tmp';
+if (!fs.existsSync(dir)){
+    fs.mkdirpSync(dir);
+}
 
 let matchResults: MatchResult[] = new Array(379);
 let count: number = 0;
