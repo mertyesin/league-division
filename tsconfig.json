@@ -7,9 +7,14 @@
         "noImplicitAny": true,
         "target": "es6",
         "jsx": "react",
+        "skipLibCheck": true,
         "experimentalDecorators": true
     },
     "include": [
       "./packages/ld-web/src/**/*"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/*.d.ts"
     ]
 }
