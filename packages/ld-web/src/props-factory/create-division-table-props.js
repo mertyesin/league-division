@@ -1,21 +1,21 @@
 "use strict";
-const sort_teams_1 = require("./helpers/sort-teams");
+var sort_teams_1 = require("./helpers/sort-teams");
 function createDivisionTableProps(teams, matchResults, orderBy) {
-    const teamStatusList = _createTeamStatusList(teams, matchResults), sortedTeamStatusList = sort_teams_1.sortTeams(teamStatusList, orderBy);
+    var teamStatusList = _createTeamStatusList(teams, matchResults), sortedTeamStatusList = sort_teams_1.sortTeams(teamStatusList, orderBy);
     return {
         teamStatusList: sortedTeamStatusList
     };
 }
 exports.createDivisionTableProps = createDivisionTableProps;
 function _createTeamStatusList(teams, matchResults) {
-    return teams.map(t => {
-        const teamMatchResults = matchResults.filter(m => m.homeTeamName === t.name || m.awayTeamName === t.name);
+    return teams.map(function (t) {
+        var teamMatchResults = matchResults.filter(function (m) { return m.homeTeamName === t.name || m.awayTeamName === t.name; });
         return _createTeamStatus(t.name, teamMatchResults);
     });
 }
 function _createTeamStatus(teamName, teamMatchResults) {
-    let played = 0, win = 0, drawn = 0, lost = 0, goalsFor = 0, goalsAgainst = 0, difference = 0, points = 0;
-    for (let i = 0; teamMatchResults.length > i; i++) {
+    var played = 0, win = 0, drawn = 0, lost = 0, goalsFor = 0, goalsAgainst = 0, difference = 0, points = 0;
+    for (var i = 0; teamMatchResults.length > i; i++) {
         // home and winner
         if (teamMatchResults[i].homeGoals > teamMatchResults[i].awayGoals && teamMatchResults[i].homeTeamName === teamName) {
             played++;
@@ -68,4 +68,3 @@ function _createTeamStatus(teamName, teamMatchResults) {
         points: points
     };
 }
-//# sourceMappingURL=create-division-table-props.js.map

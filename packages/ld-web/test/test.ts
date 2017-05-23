@@ -5,12 +5,13 @@ import {MatchResult} from "../src/model";
 import {createDivisionTableProps} from "../src/props-factory";
 
 const teams: Team[] = require("../../ld-tools/generate/teams.json"),
-    matchResults: MatchResult[] = require("../../ld-ws/match-results.json");
+    matchResults: MatchResult[] = require("../../ld-ws/match-results.json"),
+    orderBy: string = "W";
 
 describe("values should be consistent- ", function() {
     it("-difference- calculation between GF and GA", function () {
 
-        const divisionTableProps = createDivisionTableProps(teams, matchResults),
+        const divisionTableProps = createDivisionTableProps(teams, matchResults, orderBy),
             diff = divisionTableProps.teamStatusList[0].goalsFor - divisionTableProps.teamStatusList[0].goalsAgainst;
 
         assert.strictEqual(
@@ -21,7 +22,7 @@ describe("values should be consistent- ", function() {
 
     it("second -difference- calculation between GF and GA", function () {
 
-        const divisionTableProps = createDivisionTableProps(teams, matchResults),
+        const divisionTableProps = createDivisionTableProps(teams, matchResults, orderBy),
             diff = divisionTableProps.teamStatusList[7].goalsFor - divisionTableProps.teamStatusList[7].goalsAgainst;
 
         assert.strictEqual(
@@ -32,7 +33,7 @@ describe("values should be consistent- ", function() {
 
     it("third -difference- calculation between GF and GA", function () {
 
-        const divisionTableProps = createDivisionTableProps(teams, matchResults),
+        const divisionTableProps = createDivisionTableProps(teams, matchResults, orderBy),
             diff = divisionTableProps.teamStatusList[12].goalsFor - divisionTableProps.teamStatusList[12].goalsAgainst;
 
         assert.strictEqual(
@@ -44,7 +45,7 @@ describe("values should be consistent- ", function() {
     it("win count calculator", function () {
         let winCounter: number = 0;
 
-        const divisionTableProps = createDivisionTableProps(teams, matchResults);
+        const divisionTableProps = createDivisionTableProps(teams, matchResults, orderBy);
 
         for(let i=0; i<379; i++){
             if(matchResults[i].homeTeamName === "Liverpool"){
@@ -68,7 +69,7 @@ describe("values should be consistent- ", function() {
         let winCounter: number = 0,
             drawnCounter: number = 0;
 
-        const divisionTableProps = createDivisionTableProps(teams, matchResults);
+        const divisionTableProps = createDivisionTableProps(teams, matchResults, orderBy);
 
         for(let i=0; i<379; i++){
             if(matchResults[i].homeTeamName === "Chelsea"){
