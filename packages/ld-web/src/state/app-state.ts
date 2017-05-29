@@ -5,7 +5,9 @@ interface AppState {
     teams: Team[],
     matchResults: MatchResult[],
     orderBy: "P" | "W" | "L" | "D" | "GF" | "GA" | "GD" | "Points",
-    displayFixtureOf: string
+    displayFixtureOf: string,
+    visibleLeague: string,
+
 }
 
 export {

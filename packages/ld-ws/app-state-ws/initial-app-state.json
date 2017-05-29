@@ -2,5 +2,6 @@
   "teams": [],
   "matchResults": [],
   "orderBy": "Points",
-  "displayFixtureOf": "Arsenal"
+  "displayFixtureOf": "",
+  "tableStatus": "allMatches"
 }

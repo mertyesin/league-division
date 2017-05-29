@@ -1,5 +1,6 @@
 interface Team {
-    name: string
+    name: string,
+    logoPath: string
 }
 
 export {

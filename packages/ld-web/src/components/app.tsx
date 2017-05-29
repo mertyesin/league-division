@@ -4,9 +4,10 @@ import {AppProps} from "../props";
 import {Dispatcher} from "flux";
 import PropTypes = React.PropTypes;
 import {FixtureTable} from "./fixture-table";
+import {Team} from "../model/team";
 
 class App extends React.Component<AppProps, {}> {
-    props: AppProps & {actionDispatcher: Dispatcher<any>};
+    props: AppProps & {teams: Team[]} & {actionDispatcher: Dispatcher<any>} ;
 
     static childContextTypes = {
         actionDispatcher: PropTypes.instanceOf(Dispatcher).isRequired
@@ -20,8 +21,18 @@ class App extends React.Component<AppProps, {}> {
     render () {
         return (
             <div>
-                <DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList}/>
-                <FixtureTable matchResults={this.props.matchResults} teamName={this.props.displayFixtureOf}/>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                            <DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList} teams={this.props.teams}/>
+                            </td>
+                            <td>
+                                <FixtureTable matchResults={this.props.matchResults} teamName={this.props.displayFixtureOf}/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         )
     }

@@ -9,11 +9,11 @@ class FixtureTable extends React.Component<FixtureTableProps, {}> {
 
         return (
             <div>
-                <table className="fixtureTable">
+                <table>
                     <tbody>
-                    <tr>
-                        <th>Matches</th>
-                    </tr>
+                        <tr>
+                            <th>Matches</th>
+                        </tr>
                     </tbody>
                     <tbody>
                     {

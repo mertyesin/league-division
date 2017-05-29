@@ -28,7 +28,7 @@ async function main() {
     appProps = createAppProps(appState);
 
     ReactDOM.render(
-        <App {...appProps} actionDispatcher={actionDispatcher}/>
+        <App {...appProps} teams={appState.teams} actionDispatcher={actionDispatcher}/>
     /**
      * 'App' gets 'dispatcher' as props ,gives to the children as context.
      * 'App' implements getChildContext() ,children implements 'contextTypes' to require 'actionDispatcher'.
@@ -41,7 +41,7 @@ async function main() {
         appState = mainReducer(appState, action); // from main-reducer
         appProps = createAppProps(appState);
         ReactDOM.render(
-            <App {...appProps} actionDispatcher={actionDispatcher}/>
+            <App {...appProps} teams={appState.teams} actionDispatcher={actionDispatcher}/>
             ,document.getElementById('premier-league')
         );
     });

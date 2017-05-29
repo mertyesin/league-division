@@ -2,17 +2,9 @@
     cursor: pointer;
 }
 
-.divisionTable {
-    width: 50%;
-    height: 10px;
-    font-family: sans-serif;
-}
-
-.fixtureTable {
-    height: 400px;
-    width: 350px;
-    font-family: sans-serif;
-    margin-left: 600px;
+.division-table {
+    height: 862px;
+    font-family: "sans-serif";
 }
 
 /* mouse over link */

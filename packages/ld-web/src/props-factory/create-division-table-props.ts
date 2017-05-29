@@ -10,7 +10,8 @@ function createDivisionTableProps(teams: Team[], matchResults: MatchResult[],ord
         sortedTeamStatusList: TeamStatus[] = sortTeams(teamStatusList,orderBy);
 
     return {
-        teamStatusList: sortedTeamStatusList
+        teamStatusList: sortedTeamStatusList,
+        teams: teams
     };
 }
 
@@ -79,7 +80,6 @@ function _createTeamStatus(teamName: string, teamMatchResults: MatchResult[]): T
     }// end of for
 
     return {
-        logoPath: "./images/" + teamName.replace(/ /g,'') + ".png",
         name: teamName,
         played: played,
         win: win,

@@ -8,10 +8,16 @@ interface TeamFixtureDisplayRequested {
     teamName: string
 }
 
-type Action = OrderChangeRequested | TeamFixtureDisplayRequested;
+interface TableStatusChangeRequested {
+    tag: "TABLE_STATUS_CHANGE_REQUESTED",
+    newStatus: string
+}
+
+type Action = OrderChangeRequested | TeamFixtureDisplayRequested | TableStatusChangeRequested;
 
 export {
     OrderChangeRequested,
     TeamFixtureDisplayRequested,
+    TableStatusChangeRequested,
     Action
 }

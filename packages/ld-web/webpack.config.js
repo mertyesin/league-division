@@ -29,7 +29,8 @@ module.exports = {
             {from: `${__dirname}/index.html`},
             {from: `${__dirname}/css`, to:"css"},
             {from: `${__dirname}/images`, to: "images"}
-        ])
+        ]),
+
     ],
 
     module: {
@@ -42,6 +43,10 @@ module.exports = {
             {
                 test: /\.css$/,
                 loader: [ 'style-loader', 'css-loader' ]
+            },
+            {
+                test: /\.json$/,
+                use: 'json-loader'
             }
         ]
     },

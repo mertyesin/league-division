@@ -1,7 +1,9 @@
 import {TeamStatus} from "../model";
+import {Team} from "../model/team";
 
 interface DivisionTableProps {
-    teamStatusList: TeamStatus[]
+    teamStatusList: TeamStatus[],
+    teams: Team[]
 }
 
 export {

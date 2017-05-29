@@ -11,10 +11,17 @@ const actions_1 = require("../actions");
 const autobind = require("autobind-decorator");
 class DivisionTable extends React.Component {
     render() {
-        return (React.createElement("div", { className: "divisionTable" },
+        return (React.createElement("div", { className: "division-table" },
+            React.createElement("img", { src: "./images/premier-league-logo.png", width: "200", height: "40" }),
             React.createElement("table", null,
                 React.createElement("tbody", null,
-                    React.createElement("img", { src: "./images/premier-league-logo.png", width: "200", height: "40" }),
+                    React.createElement("td", null,
+                        React.createElement("input", { type: "radio", value: "home", name: "table-status", onClick: this.onTableStatusChanged }),
+                        " Home",
+                        React.createElement("input", { type: "radio", value: "away", name: "table-status", onClick: this.onTableStatusChanged }),
+                        " Away",
+                        React.createElement("input", { type: "radio", value: "allMatches", name: "table-status", onClick: this.onTableStatusChanged }),
+                        " All Matches"),
                     React.createElement("tr", null,
                         React.createElement("th", null, "Teams"),
                         React.createElement("th", null, "P"),
@@ -36,7 +43,7 @@ class DivisionTable extends React.Component {
                     React.createElement("td", null,
                         ++i,
                         ".",
-                        React.createElement("img", { src: t.logoPath, width: "15", height: "15" }),
+                        React.createElement("img", { src: this.props.teams.filter(tf => tf.name === t.name)[0].logoPath, width: "15", height: "15" }),
                         React.createElement("a", { className: "hand-button", onClick: this.onTeamClicked }, t.name)),
                     React.createElement("td", null, t.played),
                     React.createElement("td", null, t.win),
@@ -63,6 +70,14 @@ class DivisionTable extends React.Component {
             teamName: teamName
         });
     }
+    onTableStatusChanged(e) {
+        const actionDispatcher = this.context.actionDispatcher;
+        const newStatus = e.target.value;
+        actionDispatcher.dispatch({
+            tag: actions_1.ActionTags.TABLE_STATUS_CHANGE_REQUESTED,
+            newStatus: newStatus
+        });
+    }
 }
 DivisionTable.contextTypes = {
     actionDispatcher: PropTypes.object.isRequired
@@ -73,5 +88,8 @@ __decorate([
 __decorate([
     autobind
 ], DivisionTable.prototype, "onTeamClicked", null);
+__decorate([
+    autobind
+], DivisionTable.prototype, "onTableStatusChanged", null);
 exports.DivisionTable = DivisionTable;
 //# sourceMappingURL=division-table.js.map

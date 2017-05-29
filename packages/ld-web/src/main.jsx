@@ -38,22 +38,37 @@ var React = require("react");
 var ReactDOM = require("react-dom");
 var node_fetch_1 = require("node-fetch");
 var components_1 = require("./components");
-var create_division_table_props_1 = require("./props-factory/create-division-table-props");
+var props_factory_1 = require("./props-factory");
+var flux_1 = require("flux");
+var main_reducer_1 = require("./reducers/main-reducer");
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var teams, matchResults, newErr, divisionTableProps;
+        var appState, appProps, err_1, newErr, actionDispatcher;
         return __generator(this, function (_a) {
-            teams = require("../../../../teams.json");
-            try {
-                matchResults = node_fetch_1.default('match-result/', { timeout: 5000 }).then(function (r) { return r.json(); });
+            switch (_a.label) {
+                case 0:
+                    _a.trys.push([0, 2, , 3]);
+                    return [4 /*yield*/, node_fetch_1.default('http://localhost:5000/app-state/', { timeout: 5000 }).then(function (r) { return r.json(); })];
+                case 1:
+                    appState = (_a.sent());
+                    return [3 /*break*/, 3];
+                case 2:
+                    err_1 = _a.sent();
+                    newErr = new Error("error in ws, error details: match-results not found");
+                    console.error(newErr);
+                    return [3 /*break*/, 3];
+                case 3:
+                    actionDispatcher = new flux_1.Dispatcher();
+                    appProps = props_factory_1.createAppProps(appState);
+                    ReactDOM.render(<components_1.App {...appProps} actionDispatcher={actionDispatcher}/>, document.getElementById('premier-league'));
+                    actionDispatcher.register(function (action) {
+                        appState = main_reducer_1.mainReducer(appState, action); // from main-reducer
+                        appProps = props_factory_1.createAppProps(appState);
+                        ReactDOM.render(<components_1.App {...appProps} actionDispatcher={actionDispatcher}/>, document.getElementById('premier-league'));
+                    });
+                    return [2 /*return*/];
             }
-            catch (err) {
-                newErr = new Error("error in ws, error details: match-results not found");
-                console.error(newErr);
-            }
-            divisionTableProps = create_division_table_props_1.createDivisionTableProps(teams, matchResults);
-            ReactDOM.render(<components_1.App divisionTableProps={divisionTableProps}/>, document.getElementById('premier-league'));
-            return [2 /*return*/];
         });
     });
 }
+main();

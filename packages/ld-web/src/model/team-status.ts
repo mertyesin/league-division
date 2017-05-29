@@ -1,5 +1,4 @@
 interface TeamStatus {
-    logoPath: string,
     name: string,
     played: number,
     win: number,

@@ -3,7 +3,8 @@ const sort_teams_1 = require("./helpers/sort-teams");
 function createDivisionTableProps(teams, matchResults, orderBy) {
     const teamStatusList = _createTeamStatusList(teams, matchResults), sortedTeamStatusList = sort_teams_1.sortTeams(teamStatusList, orderBy);
     return {
-        teamStatusList: sortedTeamStatusList
+        teamStatusList: sortedTeamStatusList,
+        teams: teams
     };
 }
 exports.createDivisionTableProps = createDivisionTableProps;
@@ -56,7 +57,6 @@ function _createTeamStatus(teamName, teamMatchResults) {
         }
     } // end of for
     return {
-        logoPath: "./images/" + teamName.replace(/ /g, '') + ".png",
         name: teamName,
         played: played,
         win: win,

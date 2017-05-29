@@ -6,14 +6,28 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = require("react");
 var division_table_1 = require("./division-table");
+var flux_1 = require("flux");
+var PropTypes = React.PropTypes;
+var fixture_table_1 = require("./fixture-table");
 var App = (function (_super) {
     __extends(App, _super);
     function App() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
+    App.prototype.getChildContext = function () {
+        return {
+            actionDispatcher: this.props.actionDispatcher
+        };
+    };
     App.prototype.render = function () {
-        return (<division_table_1.DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList}/>);
+        return (<div>
+                <division_table_1.DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList} teams={this.props.teams}/>
+                <fixture_table_1.FixtureTable matchResults={this.props.matchResults} teamName={this.props.displayFixtureOf}/>
+            </div>);
     };
     return App;
 }(React.Component));
+App.childContextTypes = {
+    actionDispatcher: PropTypes.instanceOf(flux_1.Dispatcher).isRequired
+};
 exports.App = App;

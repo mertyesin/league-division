@@ -35,11 +35,11 @@ function main() {
         }
         const actionDispatcher = new flux_1.Dispatcher();
         appProps = props_factory_1.createAppProps(appState);
-        ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
+        ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { teams: appState.teams, actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
         actionDispatcher.register((action) => {
             appState = main_reducer_1.mainReducer(appState, action); // from main-reducer
             appProps = props_factory_1.createAppProps(appState);
-            ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
+            ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { teams: appState.teams, actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
         });
     });
 }

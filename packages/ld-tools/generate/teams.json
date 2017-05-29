@@ -1,62 +1,82 @@
 [
     {
-      "name": "Chelsea"
+      "name": "Chelsea",
+      "logoPath":"../../images/Chelsea.png"
     },
     {
-      "name": "Tottenham Hotspur"
+      "name": "Tottenham Hotspur",
+      "logoPath":"../../images/TottenhamHotspur.png"
     },
     {
-      "name": "Liverpool"
+      "name": "Liverpool",
+      "logoPath":"../../images/Liverpool.png"
     },
     {
-      "name": "Manchester City"
+      "name": "Manchester City",
+      "logoPath":"../../images/ManchesterCity.png"
     },
     {
-      "name": "Manchester United"
+      "name": "Manchester United",
+      "logoPath":"../../images/ManchesterUnited.png"
     },
     {
-      "name": "Arsenal"
+      "name": "Arsenal",
+      "logoPath":"../../images/Arsenal.png"
     },
     {
-      "name": "Everton"
+      "name": "Everton",
+      "logoPath":"../../images/Everton.png"
     },
     {
-      "name": "West Bromwich Albion"
+      "name": "West Bromwich Albion",
+      "logoPath":"../../images/WestBromwichAlbion.png"
     },
     {
-      "name": "Southampton"
+      "name": "Southampton",
+      "logoPath":"../../images/Southampton.png"
     },
     {
-      "name": "Watford"
+      "name": "Watford",
+      "logoPath":"../../images/Watford.png"
     },
     {
-      "name": "Stoke City"
+      "name": "Stoke City",
+      "logoPath":"../../images/StokeCity.png"
     },
     {
-      "name": "Crystal Palace"
+      "name": "Crystal Palace",
+      "logoPath":"../../images/CrystalPalace.png"
     },
     {
-      "name": "Bournemouth"
+      "name": "Bournemouth",
+      "logoPath":"../../images/Bournemouth.png"
     },
     {
-      "name": "West Ham United"
+      "name": "West Ham United",
+      "logoPath":"../../images/WestHamUnited.png"
     },
     {
-      "name": "Leicester City"
+      "name": "Leicester City",
+      "logoPath":"../../images/LeicesterCity.png"
     },
     {
-      "name": "Burnley"
+      "name": "Burnley",
+      "logoPath":"../../images/Burnley.png"
     },
     {
-      "name": "Hull City"
+      "name": "Hull City",
+      "logoPath":"../../images/HullCity.png"
     },
     {
-      "name": "Swansea City"
+      "name": "Swansea City",
+      "logoPath":"../../images/SwanseaCity.png"
     },
     {
-      "name": "Middlesbrough"
+      "name": "Middlesbrough",
+      "logoPath":"../../images/Middlesbrough.png"
     },
     {
-      "name": "Sunderland"
+      "name": "Sunderland",
+      "logoPath":"../../images/Sunderland.png"
     }
 ]

@@ -3,7 +3,7 @@ const React = require("react");
 class FixtureTable extends React.Component {
     render() {
         return (React.createElement("div", null,
-            React.createElement("table", { className: "fixtureTable" },
+            React.createElement("table", null,
                 React.createElement("tbody", null,
                     React.createElement("tr", null,
                         React.createElement("th", null, "Matches"))),
