@@ -2,15 +2,16 @@
 var express = require("express");
 var cors = require("cors");
 var matchResults = require("../match-results.json");
-var teams = require("../../ld-tools/generate/spain-laliga-teams.json");
+var laLigaTeams = require("../../ld-tools/generate/spain-laliga-teams.json");
+var englandPremierLeagurTeams = require("../../ld-tools/generate/spain-laliga-teams.json");
 var initialAppState = require("./initial-app-state.json");
 var app = express();
 app.use(cors());
 app.get("/app-state/", function (httpRequest, httpResponse) {
     var appState = initialAppState;
     appState.matchResults = matchResults;
-    appState.teams = teams;
-    appState.displayFixtureOf = teams[0].name;
+    appState.teams = laLigaTeams;
+    appState.displayFixtureOf = laLigaTeams[0].name;
     if (initialAppState) {
         sendResponse(httpResponse, appState);
     }

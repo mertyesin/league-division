@@ -6,7 +6,8 @@ import {Team} from "../../ld-web/src/model";
 import {AppState} from "ld/app-state";
 
 const matchResults: MatchResult[] = require("../match-results.json");
-const teams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
+const laLigaTeams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
+const englandPremierLeagurTeams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
 
 const initialAppState: AppState = require("./initial-app-state.json");
 
@@ -18,8 +19,8 @@ app.get("/app-state/", function(httpRequest: Request, httpResponse: Response) {
     var appState: AppState = initialAppState;
 
     appState.matchResults = matchResults;
-    appState.teams = teams;
-    appState.displayFixtureOf = teams[0].name;
+    appState.teams = laLigaTeams;
+    appState.displayFixtureOf = laLigaTeams[0].name;
 
     if (initialAppState) {
         sendResponse(httpResponse, appState);
