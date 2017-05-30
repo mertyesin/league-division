@@ -11,7 +11,7 @@ const actions_1 = require("../actions");
 const autobind = require("autobind-decorator");
 class DivisionTable extends React.Component {
     render() {
-        return (React.createElement("div", { className: "division-table" },
+        return (React.createElement("div", { className: "table" },
             React.createElement("img", { src: "./images/england-premier-league/premier-league-logo.png", width: "200", height: "40" }),
             React.createElement("table", null,
                 React.createElement("tbody", null,

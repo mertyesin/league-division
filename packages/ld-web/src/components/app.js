@@ -18,7 +18,7 @@ class App extends React.Component {
                         React.createElement("td", null,
                             React.createElement(division_table_1.DivisionTable, { teamStatusList: this.props.divisionTableProps.teamStatusList, teams: this.props.teams, tableStatus: this.props.tableStatus })),
                         React.createElement("td", null,
-                            React.createElement(fixture_table_1.FixtureTable, { matchResults: this.props.matchResults, teamName: this.props.displayFixtureOf })))))));
+                            React.createElement(fixture_table_1.FixtureTable, { matchResults: this.props.matchResults, teamName: this.props.displayFixtureOf, tableStatus: this.props.tableStatus })))))));
     }
 }
 App.childContextTypes = {

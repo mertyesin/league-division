@@ -7,14 +7,14 @@ import {AppState} from "ld/app-state";
 
 const matchResults: MatchResult[] = require("../match-results.json");
 const laLigaTeams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
-const englandPremierLeagurTeams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
+const englandPremierLeagueTeams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
 
 const initialAppState: AppState = require("./initial-app-state.json");
 
 const app: Application = express();
 app.use(cors());
 
-app.get("/app-state/", function(httpRequest: Request, httpResponse: Response) {
+app.get("/app-state/:leagueName", function(httpRequest: Request, httpResponse: Response) {
 
     var appState: AppState = initialAppState;
 

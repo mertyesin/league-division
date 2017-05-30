@@ -15,7 +15,7 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
     render () {
 
         return (
-            <div className="division-table">
+            <div className="table">
                 <img src="./images/england-premier-league/premier-league-logo.png" width="200" height="40"/>
                 <table>
                     <tbody>
