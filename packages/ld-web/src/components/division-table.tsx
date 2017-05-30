@@ -6,7 +6,7 @@ import {ActionTags} from "../actions"
 import * as autobind from "autobind-decorator";
 
 class DivisionTable extends React.Component<DivisionTableProps, {}> {
-    props: DivisionTableProps;
+    props: DivisionTableProps & {tableStatus:string};
 
     static contextTypes = {
         actionDispatcher: PropTypes.object.isRequired
@@ -16,14 +16,16 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
 
         return (
             <div className="division-table">
-                <img src="./images/premier-league-logo.png" width="200" height="40"/>
+                <img src="./images/england-premier-league/premier-league-logo.png" width="200" height="40"/>
                 <table>
                     <tbody>
-                    <td>
-                        <input type="radio" value="home" name="table-status" onClick={this.onTableStatusChanged}/> Home
-                        <input type="radio" value="away" name="table-status" onClick={this.onTableStatusChanged}/> Away
-                        <input type="radio" value="allMatches" name="table-status" onClick={this.onTableStatusChanged}/> All Matches
-                    </td>
+                    <tr>
+                        <td>
+                            <input type="radio" value="home" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "home"} /> Host
+                            <input type="radio" value="away" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "away"} /> Away
+                            <input type="radio" value="allMatches" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "allMatches"}/> All Matches
+                        </td>
+                    </tr>
                         <tr>
                             <th>Teams</th>
                             <th>P</th>

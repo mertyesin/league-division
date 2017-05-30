@@ -21,10 +21,15 @@ var DivisionTable = (function (_super) {
     }
     DivisionTable.prototype.render = function () {
         var _this = this;
-        return (<div className="divisionTable">
+        return (<div className="division-table">
                 <img src="./images/premier-league-logo.png" width="200" height="40"/>
                 <table>
                     <tbody>
+                    <td>
+                        <input type="radio" value="home" name="table-status" onClick={this.onTableStatusChanged}/> Home
+                        <input type="radio" value="away" name="table-status" onClick={this.onTableStatusChanged}/> Away
+                        <input type="radio" value="allMatches" name="table-status" onClick={this.onTableStatusChanged} checked={true}/> All Matches
+                    </td>
                         <tr>
                             <th>Teams</th>
                             <th>P</th>
@@ -40,16 +45,17 @@ var DivisionTable = (function (_super) {
                     <tbody>
                     {this.props.teamStatusList.map(function (t, i) {
             return <tr key={t.name}>
-                                    <td>
-                                        <img src={_this.props.teams[0].logoPath} width="15" height="15"/><a className="hand-button" onClick={_this.onTeamClicked}>{t.name}</a></td>
-                                    <td>{t.played}</td>
-                                    <td>{t.win}</td>
-                                    <td>{t.lost}</td>
-                                    <td>{t.drawn}</td>
-                                    <td>{t.goalsFor}</td>
-                                    <td>{t.goalsAgainst}</td>
-                                    <td>{t.difference}</td>
-                                    <td>{t.points}</td>
+                                            <td>{++i}.<img src={_this.props.teams.filter(function (tf) { return tf.name === t.name; })[0].logoPath} width="15" height="15"/>
+                                                <a className="hand-button" onClick={_this.onTeamClicked}>{t.name}</a>
+                                            </td>
+                                            <td>{t.played}</td>
+                                            <td>{t.win}</td>
+                                            <td>{t.lost}</td>
+                                            <td>{t.drawn}</td>
+                                            <td>{t.goalsFor}</td>
+                                            <td>{t.goalsAgainst}</td>
+                                            <td>{t.difference}</td>
+                                            <td>{t.points}</td>
                                 </tr>;
         })}
                     </tbody>
@@ -72,6 +78,14 @@ var DivisionTable = (function (_super) {
             teamName: teamName
         });
     };
+    DivisionTable.prototype.onTableStatusChanged = function (e) {
+        var actionDispatcher = this.context.actionDispatcher;
+        var newStatus = e.target.value;
+        actionDispatcher.dispatch({
+            tag: actions_1.ActionTags.TABLE_STATUS_CHANGE_REQUESTED,
+            newStatus: newStatus
+        });
+    };
     return DivisionTable;
 }(React.Component));
 DivisionTable.contextTypes = {
@@ -83,4 +97,7 @@ __decorate([
 __decorate([
     autobind
 ], DivisionTable.prototype, "onTeamClicked", null);
+__decorate([
+    autobind
+], DivisionTable.prototype, "onTableStatusChanged", null);
 exports.DivisionTable = DivisionTable;

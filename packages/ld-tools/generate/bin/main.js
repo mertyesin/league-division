@@ -7,7 +7,7 @@ if (!fs.existsSync(dir)) {
 }
 var matchResults = new Array(379);
 var count = 0;
-var teams = require("../teams.json");
+var teams = require("../spain-laliga-teams.json");
 for (var i = 0; i < 20; i++) {
     var homeTeamName = teams[i].name;
     var awayTeamName = void 0;

@@ -3,7 +3,8 @@ import {MatchResult} from "../model";
 interface AppProps {
     divisionTableProps: DivisionTableProps
     displayFixtureOf: string,
-    matchResults: MatchResult[]
+    matchResults: MatchResult[],
+    tableStatus: string
 
 }
 export {

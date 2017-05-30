@@ -11,7 +11,7 @@ if (!fs.existsSync(dir)){
 
 let matchResults: MatchResult[] = new Array(379);
 let count: number = 0;
-const teams: Team[] = require("../teams.json");
+const teams: Team[] = require("../spain-laliga-teams.json");
 
 for (let i = 0; i < 20; i++) {
     let homeTeamName: string = teams[i].name;

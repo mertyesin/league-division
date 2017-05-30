@@ -2,7 +2,7 @@
 var express = require("express");
 var cors = require("cors");
 var matchResults = require("../match-results.json");
-var teams = require("../../ld-tools/generate/teams.json");
+var teams = require("../../ld-tools/generate/spain-laliga-teams.json");
 var initialAppState = require("./initial-app-state.json");
 var app = express();
 app.use(cors());

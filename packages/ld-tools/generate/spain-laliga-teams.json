@@ -1,0 +1,82 @@
+[
+    {
+      "name": "Real Madrid",
+      "logoPath":"../../images/spain-laliga/RealMadrid.png"
+    },
+    {
+      "name": "Barcelona",
+      "logoPath":"../../images/spain-laliga/Barcelona.png"
+    },
+    {
+      "name": "Atletico Madrid",
+      "logoPath":"../../images/spain-laliga/AtleticoMadrid.png"
+      },
+    {
+      "name": "Sevilla",
+      "logoPath":"../../images/spain-laliga/Sevilla.png"
+    },
+    {
+      "name": "Villarreal",
+      "logoPath":"../../images/spain-laliga/Villarreal.png"
+    },
+    {
+      "name": "Real Sociedad",
+      "logoPath":"../../images/spain-laliga/RealSociedad.png"
+    },
+    {
+      "name": "Athletic Bilbao",
+      "logoPath":"../../images/spain-laliga/AthleticBilbao.png"
+    },
+    {
+      "name": "Espanyol",
+      "logoPath":"../../images/spain-laliga/Espanyol.png"
+    },
+    {
+      "name": "Alaves",
+      "logoPath":"../../images/spain-laliga/Alaves.png"
+    },
+    {
+      "name": "Eibar",
+      "logoPath":"../../images/spain-laliga/Eibar.png"
+    },
+    {
+      "name": "Malaga",
+      "logoPath":"../../images/spain-laliga/Malaga.png"
+    },
+    {
+      "name": "Valencia",
+      "logoPath":"../../images/spain-laliga/Valencia.png"
+    },
+    {
+      "name": "Celta Vigo",
+      "logoPath":"../../images/spain-laliga/CeltaVigo.png"
+    },
+    {
+      "name": "Las Palmas",
+      "logoPath":"../../images/spain-laliga/LasPalmas.png"
+    },
+    {
+      "name": "Real Betis",
+      "logoPath":"../../images/spain-laliga/RealBetis.png"
+    },
+    {
+      "name": "Deportivo La Coruna",
+      "logoPath":"../../images/spain-laliga/DeportivoLaCoruna.png"
+    },
+    {
+      "name": "Leganes",
+      "logoPath":"../../images/spain-laliga/Leganes.png"
+    },
+    {
+      "name": "Gijon",
+      "logoPath":"../../images/spain-laliga/Gijon.png"
+    },
+    {
+      "name": "Osasuna",
+      "logoPath":"../../images/spain-laliga/Osasuna.png"
+    },
+    {
+      "name": "Granada",
+      "logoPath":"../../images/spain-laliga/Granada.png"
+    }
+]

@@ -6,7 +6,7 @@ import {Team} from "../../ld-web/src/model";
 import {AppState} from "ld/app-state";
 
 const matchResults: MatchResult[] = require("../match-results.json");
-const teams: Team[] = require("../../ld-tools/generate/teams.json");
+const teams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
 
 const initialAppState: AppState = require("./initial-app-state.json");
 
