@@ -88,4 +88,3 @@ function sortTeams(teamStatusList, orderBy) {
     }
 }
 exports.sortTeams = sortTeams;
-//# sourceMappingURL=sort-teams.js.map
