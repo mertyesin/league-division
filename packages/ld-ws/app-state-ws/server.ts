@@ -1,28 +1,40 @@
 import * as express from "express";
 import {Application, Request, Response} from "express";
 import * as cors from "cors";
-import {MatchResult} from "../../ld-web/src/model";
-import {Team} from "../../ld-web/src/model";
 import {AppState} from "ld/app-state";
+import {Team} from "ld/model";
+import {MatchResult} from "ld/model";
 
-const matchResults: MatchResult[] = require("../match-results.json");
-const spainLaLigaTeams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
-const englandPremierLeagueTeams: Team[] = require("../../ld-tools/generate/spain-laliga-teams.json");
+const englandPremierLeagueTeams: Team[] = require("../../ld-tools/generate/england-premier-league.json");
+const englandPremierLeagueMatchResults: MatchResult[] = require("../england-premier-league-match-results.json");
+
+const spainLaLigaTeams: Team[] = require("../../ld-tools/generate/spain-laliga.json");
+const spainLaligaMatchResults: MatchResult[] = require("../spain-laliga-match-results.json");
 
 const initialAppState: AppState = require("./initial-app-state.json");
 
 const app: Application = express();
 app.use(cors());
 
-app.get("/app-state/", function(httpRequest: Request, httpResponse: Response) {
+app.get("/app-state/:leagueName", function(httpRequest: Request, httpResponse: Response) {
+    const leagueName: string = httpRequest.params.leagueName;
 
     var appState: AppState = initialAppState;
 
-    appState.matchResults = matchResults;
-    appState.teams = spainLaLigaTeams;
-    appState.displayFixtureOf = spainLaLigaTeams[0].name;
+    switch (leagueName) {
+        case "spainLaliga":
+            appState.matchResults = spainLaligaMatchResults;
+            appState.teams = spainLaLigaTeams;
+            appState.displayFixtureOf = spainLaLigaTeams[0].name;
+            break;
 
-    if (initialAppState) {
+        case "englandPremierLeague":
+            appState.matchResults = englandPremierLeagueMatchResults;
+            appState.teams = englandPremierLeagueTeams;
+            appState.displayFixtureOf = englandPremierLeagueTeams[0].name;
+    }
+
+    if (appState) {
         sendResponse(httpResponse, appState);
     }
     else {

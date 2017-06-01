@@ -1,4 +1,4 @@
-import {TeamStatus} from "../../model";
+import {TeamStatus} from "ld/model";
 
 function sortTeams (teamStatusList: TeamStatus[], orderBy: string): TeamStatus[] {
 

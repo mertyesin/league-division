@@ -4,7 +4,7 @@ import {AppProps} from "../props";
 import {Dispatcher} from "flux";
 import PropTypes = React.PropTypes;
 import {FixtureTable} from "./fixture-table";
-import {Team} from "../model/team";
+import {Team} from "../../../ld/model/team";
 
 class App extends React.Component<AppProps, {}> {
     props: AppProps & {teams: Team[]} & {actionDispatcher: Dispatcher<any>} ;

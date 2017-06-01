@@ -4,12 +4,13 @@
   "description": "desc",
   "main": "index.js",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
     "classnames": "2.2.3",
-    "node-fetch": "1.6.0"
+    "node-fetch": "1.6.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "@types/autobind-decorator": "^1.3.2",
     "@types/fs-extra": "0.0.35",
     "@types/mocha": "2.2.41",
     "@types/node": "^7.0.14",

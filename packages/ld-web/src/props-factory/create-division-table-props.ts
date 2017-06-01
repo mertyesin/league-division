@@ -1,7 +1,7 @@
-import {Team} from "../model/team";
-import {MatchResult} from "../model/match-result";
+import {Team} from "../../../ld/model/team";
+import {MatchResult} from "../../../ld/model/match-result";
 import {DivisionTableProps} from "../props/division-table-props";
-import {TeamStatus} from "../model/team-status";
+import {TeamStatus} from "../../../ld/model/team-status";
 import {sortTeams} from "./helpers/sort-teams";
 
 function createDivisionTableProps(teams: Team[], matchResults: MatchResult[], orderBy: string, tableStatus: string): DivisionTableProps {

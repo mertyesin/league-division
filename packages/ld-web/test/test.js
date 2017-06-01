@@ -1,7 +1,7 @@
 "use strict";
 var assert = require("assert");
 var props_factory_1 = require("../src/props-factory");
-var teams = require("../../ld-tools/generate/england-premier-league-teams.json"), matchResults = require("../../ld-ws/match-results.json"), orderBy = "W";
+var teams = require("../../ld-tools/generate/england-premier-league.json"), matchResults = require("../../ld-ws/match-results.json"), orderBy = "W";
 var tableStatus = "allMatches";
 describe("values should be consistent- ", function () {
     it("-difference- calculation between GF and GA", function () {

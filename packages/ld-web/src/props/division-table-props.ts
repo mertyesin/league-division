@@ -1,5 +1,5 @@
-import {TeamStatus} from "../model";
-import {Team} from "../model/team";
+import {Team} from "ld/model";
+import {TeamStatus} from "ld/model";
 
 interface DivisionTableProps {
     teamStatusList: TeamStatus[],

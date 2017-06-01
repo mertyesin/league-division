@@ -1,5 +1,6 @@
 import {DivisionTableProps} from "./division-table-props";
-import {MatchResult} from "../model";
+import {MatchResult} from "ld/model";
+
 interface AppProps {
     divisionTableProps: DivisionTableProps
     displayFixtureOf: string,

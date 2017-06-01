@@ -12,21 +12,38 @@ var FixtureTable = (function (_super) {
     }
     FixtureTable.prototype.render = function () {
         var _this = this;
-        return (<div>
-                <table className="fixtureTable">
+        return (<div className="table">
+                <table>
                     <tbody>
-                    <tr>
-                        <th>Matches</th>
-                    </tr>
+                        <tr>
+                            <th>Matches</th>
+                        </tr>
                     </tbody>
                     <tbody>
-                    {this.props.matchResults.filter(function (m) { return m.homeTeamName === _this.props.teamName || m.awayTeamName === _this.props.teamName; }).map(function (t, i) {
-            return <tr key={i}>
-                               <td>
-                                   {t.homeTeamName + " " + t.homeGoals + "-" + t.awayGoals + " " + t.awayTeamName}
-                               </td>
-                           </tr>;
-        })}
+                    {this.props.tableStatus === "home" ?
+            this.props.matchResults.filter(function (m) { return m.homeTeamName === _this.props.teamName; }).map(function (t, i) {
+                return <tr key={i}>
+                                    <td>
+                                        {t.homeTeamName + " " + t.homeGoals + "-" + t.awayGoals + " " + t.awayTeamName}
+                                    </td>
+                                </tr>;
+            }) : null}
+                    {this.props.tableStatus === "away" ?
+            this.props.matchResults.filter(function (m) { return m.awayTeamName === _this.props.teamName; }).map(function (t, i) {
+                return <tr key={i}>
+                                    <td>
+                                        {t.homeTeamName + " " + t.homeGoals + "-" + t.awayGoals + " " + t.awayTeamName}
+                                    </td>
+                                </tr>;
+            }) : null}
+                    {this.props.tableStatus === "allMatches" ?
+            this.props.matchResults.filter(function (m) { return m.awayTeamName === _this.props.teamName || m.homeTeamName === _this.props.teamName; }).map(function (t, i) {
+                return <tr key={i}>
+                                    <td>
+                                        {t.homeTeamName + " " + t.homeGoals + "-" + t.awayGoals + " " + t.awayTeamName}
+                                    </td>
+                                </tr>;
+            }) : null}
                     </tbody>
                 </table>
             </div>);

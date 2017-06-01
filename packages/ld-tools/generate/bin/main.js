@@ -6,17 +6,19 @@ if (!fs.existsSync(dir)) {
     fs.mkdirpSync(dir);
 }
 var matchResults = new Array(379);
+var matchResults2 = new Array(379);
 var count = 0;
-var teams = require("../spain-laliga-teams.json");
+var england_premier_league_teams = require("../england-premier-league.json");
+var spain_laliga_teams = require("../spain-laliga.json");
 for (var i = 0; i < 20; i++) {
-    var homeTeamName = teams[i].name;
+    var homeTeamName = england_premier_league_teams[i].name;
     var awayTeamName = void 0;
     for (var j = 0; j < 20; j++) {
         if (i == j) {
             continue;
         }
         else {
-            awayTeamName = teams[j].name;
+            awayTeamName = england_premier_league_teams[j].name;
         }
         matchResults[count] = {
             "homeTeamName": homeTeamName,
@@ -26,5 +28,26 @@ for (var i = 0; i < 20; i++) {
         };
         count++;
     }
-    fs.writeFileSync("./tmp/match-results.json", JSON.stringify(matchResults, undefined, 2), { encoding: "utf-8" });
+    fs.writeFileSync("./tmp/england-premier-league-match-results.json", JSON.stringify(matchResults, undefined, 2), { encoding: "utf-8" });
+}
+count = 0; // for second match results
+for (var i = 0; i < 20; i++) {
+    var homeTeamName = spain_laliga_teams[i].name;
+    var awayTeamName = void 0;
+    for (var j = 0; j < 20; j++) {
+        if (i == j) {
+            continue;
+        }
+        else {
+            awayTeamName = spain_laliga_teams[j].name;
+        }
+        matchResults2[count] = {
+            "homeTeamName": homeTeamName,
+            "awayTeamName": awayTeamName,
+            "homeGoals": Math.floor((Math.random() * 5)),
+            "awayGoals": Math.floor((Math.random() * 5))
+        };
+        count++;
+    }
+    fs.writeFileSync("./tmp/spain-laliga-match-results.json", JSON.stringify(matchResults2, undefined, 2), { encoding: "utf-8" });
 }

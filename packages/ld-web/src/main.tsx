@@ -16,7 +16,7 @@ async function main() {
     var appProps: AppProps;
 
     try {
-        appState = await fetch('http://localhost:5000/app-state/', {timeout: 5000}).then(r => r.json()) as any;
+        appState = await fetch('http://localhost:5000/app-state/englandPremierLeague', {timeout: 5000}).then(r => r.json()) as any;
     }
     catch(err)  {
         const newErr = new Error(`error in ws, error details: match-results not found`);

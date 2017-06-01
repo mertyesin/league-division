@@ -1,10 +1,10 @@
 import * as assert from "assert";
-import {Team} from "../src/model";
-import {MatchResult} from "../src/model";
+import {Team} from "../.";
+import {MatchResult} from "../.";
 
 import {createDivisionTableProps} from "../src/props-factory";
 
-const teams: Team[] = require("../../ld-tools/generate/england-premier-league-teams.json"),
+const teams: Team[] = require("../../ld-tools/generate/england-premier-league.json"),
     matchResults: MatchResult[] = require("../../ld-ws/match-results.json"),
     orderBy: string = "W";
     var tableStatus: string = "allMatches";

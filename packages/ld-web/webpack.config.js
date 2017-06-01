@@ -14,10 +14,12 @@ module.exports = {
         filename: "bundle.js"
     },
 
-    externals: {
-        "react": "React",
-        "react-dom": "ReactDOM"
-    },
+    externals: [
+        {
+            "react": "React",
+            "react-dom": "ReactDOM"
+        }
+    ],
 
     plugins: [
         new CleanWebpackPlugin([OUTPUT_PATH], {

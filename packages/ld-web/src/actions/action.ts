@@ -13,11 +13,16 @@ interface TableStatusChangeRequested {
     newStatus: string
 }
 
-type Action = OrderChangeRequested | TeamFixtureDisplayRequested | TableStatusChangeRequested;
+interface ViewChangeRequested {
+    tag: "View_CHANGE_REQUESTED",
+    newStatus: string
+}
+type Action = OrderChangeRequested | TeamFixtureDisplayRequested | TableStatusChangeRequested | ViewChangeRequested;
 
 export {
     OrderChangeRequested,
     TeamFixtureDisplayRequested,
     TableStatusChangeRequested,
+    ViewChangeRequested,
     Action
 }

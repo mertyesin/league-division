@@ -1,5 +1,5 @@
-import {Team} from "../model";
-import {MatchResult} from "../model";
+import {Team} from "ld/model";
+import {MatchResult} from "ld/model";
 
 interface AppState {
     teams: Team[],

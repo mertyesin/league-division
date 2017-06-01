@@ -21,8 +21,18 @@ var App = (function (_super) {
     };
     App.prototype.render = function () {
         return (<div>
-                <division_table_1.DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList} teams={this.props.teams}/>
-                <fixture_table_1.FixtureTable matchResults={this.props.matchResults} teamName={this.props.displayFixtureOf}/>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <division_table_1.DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList} teams={this.props.teams} tableStatus={this.props.tableStatus}/>
+                            </td>
+                            <td>
+                                <fixture_table_1.FixtureTable matchResults={this.props.matchResults} teamName={this.props.displayFixtureOf} tableStatus={this.props.tableStatus}/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>);
     };
     return App;

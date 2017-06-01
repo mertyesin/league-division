@@ -48,7 +48,7 @@ function main() {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, , 3]);
-                    return [4 /*yield*/, node_fetch_1.default('http://localhost:5000/app-state/', { timeout: 5000 }).then(function (r) { return r.json(); })];
+                    return [4 /*yield*/, node_fetch_1.default('http://localhost:5000/app-state/spain-laliga', { timeout: 5000 }).then(function (r) { return r.json(); })];
                 case 1:
                     appState = (_a.sent());
                     return [3 /*break*/, 3];
@@ -60,11 +60,11 @@ function main() {
                 case 3:
                     actionDispatcher = new flux_1.Dispatcher();
                     appProps = props_factory_1.createAppProps(appState);
-                    ReactDOM.render(<components_1.App {...appProps} actionDispatcher={actionDispatcher}/>, document.getElementById('premier-league'));
+                    ReactDOM.render(<components_1.App {...appProps} teams={appState.teams} actionDispatcher={actionDispatcher}/>, document.getElementById('premier-league'));
                     actionDispatcher.register(function (action) {
                         appState = main_reducer_1.mainReducer(appState, action); // from main-reducer
                         appProps = props_factory_1.createAppProps(appState);
-                        ReactDOM.render(<components_1.App {...appProps} actionDispatcher={actionDispatcher}/>, document.getElementById('premier-league'));
+                        ReactDOM.render(<components_1.App {...appProps} teams={appState.teams} actionDispatcher={actionDispatcher}/>, document.getElementById('premier-league'));
                     });
                     return [2 /*return*/];
             }

@@ -1,18 +1,28 @@
 "use strict";
 var express = require("express");
 var cors = require("cors");
-var matchResults = require("../match-results.json");
-var spainLaLigaTeams = require("../../ld-tools/generate/spain-laliga-teams.json");
-var englandPremierLeagueTeams = require("../../ld-tools/generate/spain-laliga-teams.json");
+var englandPremierLeagueTeams = require("../../ld-tools/generate/england-premier-league.json");
+var englandPremierLeagueMatchResults = require("../england-premier-league-match-results.json");
+var spainLaLigaTeams = require("../../ld-tools/generate/spain-laliga.json");
+var spainLaligaMatchResults = require("../spain-laliga-match-results.json");
 var initialAppState = require("./initial-app-state.json");
 var app = express();
 app.use(cors());
-app.get("/app-state/", function (httpRequest, httpResponse) {
+app.get("/app-state/:leagueName", function (httpRequest, httpResponse) {
+    var leagueName = httpRequest.params.leagueName;
     var appState = initialAppState;
-    appState.matchResults = matchResults;
-    appState.teams = spainLaLigaTeams;
-    appState.displayFixtureOf = spainLaLigaTeams[0].name;
-    if (initialAppState) {
+    switch (leagueName) {
+        case "spainLaliga":
+            appState.matchResults = spainLaligaMatchResults;
+            appState.teams = spainLaLigaTeams;
+            appState.displayFixtureOf = spainLaLigaTeams[0].name;
+            break;
+        case "englandPremierLeague":
+            appState.matchResults = englandPremierLeagueMatchResults;
+            appState.teams = englandPremierLeagueTeams;
+            appState.displayFixtureOf = englandPremierLeagueTeams[0].name;
+    }
+    if (appState) {
         sendResponse(httpResponse, appState);
     }
     else {

@@ -1,9 +1,9 @@
-import {Team} from "../model/team";
-import {MatchResult} from "../model";
+import {Team} from "ld/model";
+import {MatchResult} from "ld/model";
 import {DivisionTableProps} from "../props";
 import {createDivisionTableProps} from "./create-division-table-props";
 import {AppProps} from "../props";
-import {AppState} from "../../../ld";
+import {AppState} from "ld";
 
 function createAppProps(appState: AppState): AppProps {
 

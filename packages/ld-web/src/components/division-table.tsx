@@ -2,8 +2,8 @@ import * as React from "react";
 import PropTypes = React.PropTypes;
 import {DivisionTableProps} from "../props";
 import {Dispatcher} from "flux";
-import {ActionTags} from "../actions"
-import * as autobind from "autobind-decorator";
+import {ActionTags} from "../actions";
+import autobind = require ("autobind-decorator");
 
 class DivisionTable extends React.Component<DivisionTableProps, {}> {
     props: DivisionTableProps & {tableStatus:string};

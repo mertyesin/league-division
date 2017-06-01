@@ -21,15 +21,17 @@ var DivisionTable = (function (_super) {
     }
     DivisionTable.prototype.render = function () {
         var _this = this;
-        return (<div className="division-table">
-                <img src="./images/premier-league-logo.png" width="200" height="40"/>
+        return (<div className="table">
+                <img src="./images/england-premier-league/premier-league-logo.png" width="200" height="40"/>
                 <table>
                     <tbody>
-                    <td>
-                        <input type="radio" value="home" name="table-status" onClick={this.onTableStatusChanged}/> Home
-                        <input type="radio" value="away" name="table-status" onClick={this.onTableStatusChanged}/> Away
-                        <input type="radio" value="allMatches" name="table-status" onClick={this.onTableStatusChanged} checked={true}/> All Matches
-                    </td>
+                    <tr>
+                        <td>
+                            <input type="radio" value="home" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "home"}/> Host
+                            <input type="radio" value="away" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "away"}/> Away
+                            <input type="radio" value="allMatches" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "allMatches"}/> All Matches
+                        </td>
+                    </tr>
                         <tr>
                             <th>Teams</th>
                             <th>P</th>
