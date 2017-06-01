@@ -29,11 +29,11 @@ async function main() {
 
     ReactDOM.render(
         <App {...appProps} teams={appState.teams} actionDispatcher={actionDispatcher}/>
-    /**
-     * 'App' gets 'dispatcher' as props ,gives to the children as context.
-     * 'App' implements getChildContext() ,children implements 'contextTypes' to require 'actionDispatcher'.
-     * Components throw action with 'actionDispatcher.dispatch({})'.
-     */
+        /**
+         * 'App' gets 'dispatcher' as props ,gives to the children as context.
+         * 'App' implements getChildContext() ,children implements 'contextTypes' to require 'actionDispatcher'.
+         * Components throw action with 'actionDispatcher.dispatch({})'.
+         */
         ,document.getElementById('premier-league')
     );
 

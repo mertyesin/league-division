@@ -1,0 +1,2282 @@
+[
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Alaves",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Eibar",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Malaga",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Valencia",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Leganes",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Gijon",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Madrid",
+    "awayTeamName": "Granada",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Alaves",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Eibar",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Malaga",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Valencia",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Leganes",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Gijon",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barcelona",
+    "awayTeamName": "Granada",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Alaves",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Eibar",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Malaga",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Valencia",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Leganes",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Gijon",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Atletico Madrid",
+    "awayTeamName": "Granada",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Alaves",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Eibar",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Malaga",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Valencia",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Leganes",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Gijon",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sevilla",
+    "awayTeamName": "Granada",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Alaves",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Eibar",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Malaga",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Valencia",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Leganes",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Gijon",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Villarreal",
+    "awayTeamName": "Granada",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Alaves",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Eibar",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Malaga",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Valencia",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Leganes",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Gijon",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Sociedad",
+    "awayTeamName": "Granada",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Alaves",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Eibar",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Malaga",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Valencia",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Leganes",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Gijon",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Athletic Bilbao",
+    "awayTeamName": "Granada",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Alaves",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Eibar",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Malaga",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Valencia",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Leganes",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Gijon",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Espanyol",
+    "awayTeamName": "Granada",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Eibar",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Malaga",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Valencia",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Leganes",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Gijon",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Alaves",
+    "awayTeamName": "Granada",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Alaves",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Malaga",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Valencia",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Leganes",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Gijon",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Eibar",
+    "awayTeamName": "Granada",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Alaves",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Eibar",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Valencia",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Leganes",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Gijon",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Malaga",
+    "awayTeamName": "Granada",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Alaves",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Eibar",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Malaga",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Leganes",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Gijon",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Valencia",
+    "awayTeamName": "Granada",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Alaves",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Eibar",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Malaga",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Valencia",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Leganes",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Gijon",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Celta Vigo",
+    "awayTeamName": "Granada",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Alaves",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Eibar",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Malaga",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Valencia",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Leganes",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Gijon",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Las Palmas",
+    "awayTeamName": "Granada",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Alaves",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Eibar",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Malaga",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Valencia",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Leganes",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Gijon",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Real Betis",
+    "awayTeamName": "Granada",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Alaves",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Eibar",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Malaga",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Valencia",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Leganes",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Gijon",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Deportivo La Coruna",
+    "awayTeamName": "Granada",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Alaves",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Eibar",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Malaga",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Valencia",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Gijon",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Leganes",
+    "awayTeamName": "Granada",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Alaves",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Eibar",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Malaga",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Valencia",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Leganes",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Gijon",
+    "awayTeamName": "Granada",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Alaves",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Eibar",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Malaga",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Valencia",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Leganes",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Gijon",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Osasuna",
+    "awayTeamName": "Granada",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Real Madrid",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Barcelona",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Atletico Madrid",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Sevilla",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Villarreal",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Real Sociedad",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Athletic Bilbao",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Espanyol",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Alaves",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Eibar",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Malaga",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Valencia",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Celta Vigo",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Las Palmas",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Real Betis",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Deportivo La Coruna",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Leganes",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Gijon",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Granada",
+    "awayTeamName": "Osasuna",
+    "homeGoals": 1,
+    "awayGoals": 1
+  }
+]

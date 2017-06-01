@@ -15,7 +15,7 @@ interface TableStatusChangeRequested {
 
 interface ViewChangeRequested {
     tag: "View_CHANGE_REQUESTED",
-    newStatus: string
+    toViewName: string
 }
 type Action = OrderChangeRequested | TeamFixtureDisplayRequested | TableStatusChangeRequested | ViewChangeRequested;
 
