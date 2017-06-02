@@ -8,18 +8,19 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 const node_fetch_1 = require("node-fetch");
-function viewChangeRequested(appState, action) {
+function viewChangeRequested(action) {
     return __awaiter(this, void 0, void 0, function* () {
         const toViewName = action.toViewName;
         const appStateUrl = 'http://localhost:5000/app-state/' + toViewName;
+        var newAppState;
         try {
-            appState = (yield node_fetch_1.default(appStateUrl, { timeout: 5000 }).then(r => r.json()));
+            newAppState = yield node_fetch_1.default(appStateUrl, { timeout: 5000 }).then(r => r.json());
         }
         catch (err) {
             const newErr = new Error(`error in ws, error details: match-results not found`);
             console.error(newErr);
         }
-        return appState;
+        return newAppState;
     });
 }
 exports.viewChangeRequested = viewChangeRequested;

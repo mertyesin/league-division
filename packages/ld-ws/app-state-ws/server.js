@@ -12,22 +12,29 @@ app.get("/app-state/:leagueName", function (httpRequest, httpResponse) {
     var leagueName = httpRequest.params.leagueName;
     var appState = initialAppState;
     switch (leagueName) {
-        case "spainLaliga":
+        case "spainlaliga":
             appState.matchResults = spainLaligaMatchResults;
             appState.teams = spainLaLigaTeams;
             appState.displayFixtureOf = spainLaLigaTeams[0].name;
+            if (appState) {
+                sendResponse(httpResponse, appState);
+            }
+            else {
+                var newErr = "error details: match-results not found";
+                sendErrorResponse(httpResponse, 500, newErr);
+            }
             break;
-        case "englandPremierLeague":
+        case "englandpremierleague":
             appState.matchResults = englandPremierLeagueMatchResults;
             appState.teams = englandPremierLeagueTeams;
             appState.displayFixtureOf = englandPremierLeagueTeams[0].name;
-    }
-    if (appState) {
-        sendResponse(httpResponse, appState);
-    }
-    else {
-        var newErr = "error details: match-results not found";
-        sendErrorResponse(httpResponse, 500, newErr);
+            if (appState) {
+                sendResponse(httpResponse, appState);
+            }
+            else {
+                var newErr = "error details: match-results not found";
+                sendErrorResponse(httpResponse, 500, newErr);
+            }
     }
 });
 function sendResponse(httpResponse, response) {

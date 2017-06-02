@@ -4,8 +4,10 @@ import {teamFixtureDisplayRequested} from "./app-state-reducers/team-fixture-dis
 import {Action} from "../actions/action";
 import * as ActionTags from "../actions/tags"
 import {tableStatusChangeRequested} from "./app-state-reducers/table-status-change-requested";
+import {viewChangeRequested} from "./app-state-reducers/view-change-requested";
 
-function mainReducer(appState: AppState, action: Action): AppState {
+async function mainReducer(appState: AppState, action: Action): Promise<AppState>{
+
     switch (action.tag) {
         case ActionTags.ORDER_CHANGE_REQUESTED:
             return orderChangeRequested(appState ,action);
@@ -15,6 +17,13 @@ function mainReducer(appState: AppState, action: Action): AppState {
 
         case ActionTags.TABLE_STATUS_CHANGE_REQUESTED:
             return tableStatusChangeRequested(appState ,action);
+
+        case ActionTags.VIEW_CHANGE_REQUESTED:
+            return await viewChangeRequested(action);
+
+        default:
+            return appState;
+
     }
 }
 

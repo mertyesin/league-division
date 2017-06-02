@@ -27,7 +27,7 @@ function main() {
         var appState;
         var appProps;
         try {
-            appState = (yield node_fetch_1.default('http://localhost:5000/app-state/englandPremierLeague', { timeout: 5000 }).then(r => r.json()));
+            appState = yield node_fetch_1.default('http://localhost:5000/app-state/englandpremierleague', { timeout: 5000 }).then(r => r.json());
         }
         catch (err) {
             const newErr = new Error(`error in ws, error details: match-results not found`);
@@ -36,10 +36,12 @@ function main() {
         const actionDispatcher = new flux_1.Dispatcher();
         appProps = props_factory_1.createAppProps(appState);
         ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { teams: appState.teams, actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
-        actionDispatcher.register((action) => {
-            appState = main_reducer_1.mainReducer(appState, action); // from main-reducer
-            appProps = props_factory_1.createAppProps(appState);
-            ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { teams: appState.teams, actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
+        actionDispatcher.register(function (action) {
+            return __awaiter(this, void 0, void 0, function* () {
+                appState = yield main_reducer_1.mainReducer(appState, action); // from main-reducer
+                appProps = props_factory_1.createAppProps(appState);
+                ReactDOM.render(React.createElement(components_1.App, __assign({}, appProps, { teams: appState.teams, actionDispatcher: actionDispatcher })), document.getElementById('premier-league'));
+            });
         });
     });
 }

@@ -14,9 +14,22 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
 
     render () {
 
+        const views: Array<string> = ["England Premier League","Spain LaLiga"];
+        let i = 0;
         return (
             <div className="table">
-                <img src="./images/england-premier-league/premier-league-logo.png" width="200" height="40"/>
+                <img src="./images/england-premier-league/premier-league-logo.png" width="230" height="40"/>
+                <select onChange={this.onViewChanged}>
+                {
+                    views.map(v => {
+                        return (
+                            <option key={++i} value={v}>
+                                {v}
+                            </option>
+                        );
+                    })
+                }
+            </select>
                 <table>
                     <tbody>
                     <tr>
@@ -92,6 +105,17 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
         actionDispatcher.dispatch({
             tag: ActionTags.TABLE_STATUS_CHANGE_REQUESTED,
             newStatus: newStatus
+        });
+    }
+
+    @autobind
+    onViewChanged(e: any) {
+        const actionDispatcher: Dispatcher<any> = this.context.actionDispatcher;
+        const toViewName: string = (e.target.value).toLowerCase().replace(/\s/g, '');
+
+        actionDispatcher.dispatch({
+            tag: ActionTags.VIEW_CHANGE_REQUESTED,
+            toViewName: toViewName
         });
     }
 

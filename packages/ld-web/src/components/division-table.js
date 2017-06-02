@@ -11,8 +11,13 @@ const actions_1 = require("../actions");
 const autobind = require("autobind-decorator");
 class DivisionTable extends React.Component {
     render() {
+        const views = ["England Premier League", "Spain LaLiga"];
+        let i = 0;
         return (React.createElement("div", { className: "table" },
-            React.createElement("img", { src: "./images/england-premier-league/premier-league-logo.png", width: "200", height: "40" }),
+            React.createElement("img", { src: "./images/england-premier-league/premier-league-logo.png", width: "230", height: "40" }),
+            React.createElement("select", { onChange: this.onViewChanged }, views.map(v => {
+                return (React.createElement("option", { key: ++i, value: v }, v));
+            })),
             React.createElement("table", null,
                 React.createElement("tbody", null,
                     React.createElement("tr", null,
@@ -79,6 +84,14 @@ class DivisionTable extends React.Component {
             newStatus: newStatus
         });
     }
+    onViewChanged(e) {
+        const actionDispatcher = this.context.actionDispatcher;
+        const toViewName = (e.target.value).toLowerCase().replace(/\s/g, '');
+        actionDispatcher.dispatch({
+            tag: actions_1.ActionTags.VIEW_CHANGE_REQUESTED,
+            toViewName: toViewName
+        });
+    }
 }
 DivisionTable.contextTypes = {
     actionDispatcher: PropTypes.object.isRequired
@@ -92,5 +105,8 @@ __decorate([
 __decorate([
     autobind
 ], DivisionTable.prototype, "onTableStatusChanged", null);
+__decorate([
+    autobind
+], DivisionTable.prototype, "onViewChanged", null);
 exports.DivisionTable = DivisionTable;
 //# sourceMappingURL=division-table.js.map

@@ -16,7 +16,7 @@ async function main() {
     var appProps: AppProps;
 
     try {
-        appState = await fetch('http://localhost:5000/app-state/englandPremierLeague', {timeout: 5000}).then(r => r.json()) as any;
+        appState = await fetch('http://localhost:5000/app-state/englandpremierleague', {timeout: 5000}).then(r => r.json() as any);
     }
     catch(err)  {
         const newErr = new Error(`error in ws, error details: match-results not found`);
@@ -37,8 +37,8 @@ async function main() {
         ,document.getElementById('premier-league')
     );
 
-    actionDispatcher.register((action: Action)  => {
-        appState = mainReducer(appState, action); // from main-reducer
+    actionDispatcher.register(async function(action: Action) {
+        appState = await mainReducer(appState, action); // from main-reducer
         appProps = createAppProps(appState);
         ReactDOM.render(
             <App {...appProps} teams={appState.teams} actionDispatcher={actionDispatcher}/>
