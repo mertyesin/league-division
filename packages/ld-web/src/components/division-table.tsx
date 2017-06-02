@@ -34,9 +34,11 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                     <tbody>
                     <tr>
                         <td>
-                            <input type="radio" value="home" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "home"} /> Host
-                            <input type="radio" value="away" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "away"} /> Away
-                            <input type="radio" value="allMatches" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "allMatches"}/> All Matches
+                            <th>
+                                <input type="radio" value="home" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "home"} /> Host
+                                <input type="radio" value="away" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "away"} /> Away
+                                <input type="radio" value="allMatches" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "allMatches"}/> All Matches
+                            </th>
                         </td>
                     </tr>
                         <tr>
@@ -54,9 +56,9 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                     <tbody>
                     {
                         this.props.teamStatusList.map((t,i) =>
-                                <tr key={t.name}>
+                                <tr  key={t.name}>
                                             <td>{++i}.<img src={this.props.teams.filter(tf => tf.name === t.name)[0].logoPath} width="15" height="15"/>
-                                                <a className="hand-button" onClick={this.onTeamClicked}>{t.name}</a>
+                                                <a className="hand-button target" onClick={this.onTeamClicked}>{t.name}</a>
                                             </td>
                                             <td>{t.played}</td>
                                             <td>{t.win}</td>
