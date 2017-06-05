@@ -1,9 +1,10 @@
 import * as express from "express";
 import {Application, Request, Response} from "express";
+import {Team} from "../../ld/model/team";
+import {MatchResult} from "../../ld/model/match-result";
+import {AppState} from "../../ld/app-state";
 import * as cors from "cors";
-import {AppState} from "ld/app-state";
-import {Team} from "ld/model";
-import {MatchResult} from "ld/model";
+
 
 const englandPremierLeagueTeams: Team[] = require("../../ld-tools/generate/england-premier-league.json");
 const englandPremierLeagueMatchResults: MatchResult[] = require("../england-premier-league-match-results.json");
