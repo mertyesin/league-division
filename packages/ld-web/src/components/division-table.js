@@ -23,7 +23,7 @@ class DivisionTable extends React.Component {
                     React.createElement("tr", null,
                         React.createElement("td", null,
                             React.createElement("th", null,
-                                React.createElement("input", { value: "home", name: "table-status", onChange: this.onTableStatusChanged, checked: this.props.tableStatus === "home" }),
+                                React.createElement("input", { type: "radio", value: "home", name: "table-status", onChange: this.onTableStatusChanged, checked: this.props.tableStatus === "home" }),
                                 " Host",
                                 React.createElement("input", { type: "radio", value: "away", name: "table-status", onChange: this.onTableStatusChanged, checked: this.props.tableStatus === "away" }),
                                 " Away",
