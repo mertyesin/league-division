@@ -8,3 +8,7 @@
 * 3- in ld-ws folder, run `npm start` (to start web-services)
 * 4- in ld-web folder, run `npm run start-webpack-dev-server`
 * 5- and go to http://localhost:8001
+
+----- Here is a sample screenshot -----
+
+![Alt text](https://github.com/mertyesin/league-division/blob/master/packages/ld-web/images/england-premier-league/league-div-screenshot.png?raw=true "Optional Title")
