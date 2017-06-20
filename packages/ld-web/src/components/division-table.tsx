@@ -120,8 +120,8 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
             toViewName: toViewName
         });
     }
-
 }
+
 export {
     DivisionTable
 }

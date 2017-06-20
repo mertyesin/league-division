@@ -1,5 +1,5 @@
-"use strict";
-import {TeamStatus} from "../../../../ld/model/team-status";
+import {TeamStatus} from "ld/model";
+
 function sortTeams(teamStatusList: TeamStatus[], orderBy: string) {
     switch (orderBy) {
         case "Points":
@@ -91,4 +91,3 @@ function sortTeams(teamStatusList: TeamStatus[], orderBy: string) {
 export {
     sortTeams
 }
-//# sourceMappingURL=sort-teams.js.map
