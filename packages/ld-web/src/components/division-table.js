@@ -14,7 +14,7 @@ class DivisionTable extends React.Component {
         const views = ["England Premier League", "Spain LaLiga"];
         let i = 0;
         return (React.createElement("div", { className: "table" },
-            React.createElement("img", { src: "./images/england-premier-league/premier-league-logo.png", width: "230", height: "40" }),
+            React.createElement("img", { className: "hand-button", onClick: this.onReloadClicked, src: "./images/england-premier-league/premier-league-logo.png", width: "230", height: "40" }),
             React.createElement("select", { onChange: this.onViewChanged }, views.map(v => {
                 return (React.createElement("option", { key: ++i, value: v }, v));
             })),
@@ -93,6 +93,12 @@ class DivisionTable extends React.Component {
             toViewName: toViewName
         });
     }
+    onReloadClicked() {
+        const actionDispatcher = this.context.actionDispatcher;
+        actionDispatcher.dispatch({
+            tag: actions_1.ActionTags.RELOAD_REQUESTED
+        });
+    }
 }
 DivisionTable.contextTypes = {
     actionDispatcher: PropTypes.object.isRequired
@@ -109,5 +115,8 @@ __decorate([
 __decorate([
     autobind
 ], DivisionTable.prototype, "onViewChanged", null);
+__decorate([
+    autobind
+], DivisionTable.prototype, "onReloadClicked", null);
 exports.DivisionTable = DivisionTable;
 //# sourceMappingURL=division-table.js.map

@@ -12,6 +12,7 @@ const team_fixture_display_requested_1 = require("./app-state-reducers/team-fixt
 const ActionTags = require("../actions/tags");
 const table_status_change_requested_1 = require("./app-state-reducers/table-status-change-requested");
 const view_change_requested_1 = require("./app-state-reducers/view-change-requested");
+const reload_requested_1 = require("./app-state-reducers/reload-requested");
 function mainReducer(appState, action) {
     return __awaiter(this, void 0, void 0, function* () {
         switch (action.tag) {
@@ -23,6 +24,8 @@ function mainReducer(appState, action) {
                 return table_status_change_requested_1.tableStatusChangeRequested(appState, action);
             case ActionTags.VIEW_CHANGE_REQUESTED:
                 return yield view_change_requested_1.viewChangeRequested(action);
+            case ActionTags.RELOAD_REQUESTED:
+                return yield reload_requested_1.reloadRequested(action);
             default:
                 return appState;
         }
