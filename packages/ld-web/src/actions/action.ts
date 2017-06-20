@@ -17,12 +17,18 @@ interface ViewChangeRequested {
     tag: "VIEW_CHANGE_REQUESTED",
     toViewName: string
 }
-type Action = OrderChangeRequested | TeamFixtureDisplayRequested | TableStatusChangeRequested | ViewChangeRequested;
+
+interface ReloadRequested {
+    tag: "RELOAD_REQUESTED"
+}
+
+type Action = OrderChangeRequested | TeamFixtureDisplayRequested | TableStatusChangeRequested | ViewChangeRequested | ReloadRequested;
 
 export {
     OrderChangeRequested,
     TeamFixtureDisplayRequested,
     TableStatusChangeRequested,
     ViewChangeRequested,
+    ReloadRequested,
     Action
 }

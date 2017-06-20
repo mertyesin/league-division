@@ -5,6 +5,7 @@ import {Action} from "../actions/action";
 import * as ActionTags from "../actions/tags"
 import {tableStatusChangeRequested} from "./app-state-reducers/table-status-change-requested";
 import {viewChangeRequested} from "./app-state-reducers/view-change-requested";
+import {reloadRequested} from "./app-state-reducers/reload-requested";
 
 async function mainReducer(appState: AppState, action: Action): Promise<AppState>{
 
@@ -20,6 +21,9 @@ async function mainReducer(appState: AppState, action: Action): Promise<AppState
 
         case ActionTags.VIEW_CHANGE_REQUESTED:
             return await viewChangeRequested(action);
+
+        case ActionTags.RELOAD_REQUESTED:
+            return await reloadRequested(action);
 
         default:
             return appState;
