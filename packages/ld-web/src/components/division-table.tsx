@@ -34,11 +34,9 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
                     <tbody>
                     <tr>
                         <td>
-                            <th>
-                                <input type="radio" value="home" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "home"} /> Host
+                                <input type="radio" value="home" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "home"}/> Host
                                 <input type="radio" value="away" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "away"} /> Away
                                 <input type="radio" value="allMatches" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "allMatches"}/> All Matches
-                            </th>
                         </td>
                     </tr>
                         <tr>
