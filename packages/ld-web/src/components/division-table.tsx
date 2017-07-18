@@ -20,53 +20,53 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
             <div className="table">
                 <img className="hand-button" onClick={this.onReloadClicked} src="./images/england-premier-league/premier-league-logo.png" width="230" height="40"/>
                 <select onChange={this.onViewChanged}>
-                {
-                    views.map(v => {
-                        return (
-                            <option key={++i} value={v}>
-                                {v}
-                            </option>
-                        );
-                    })
-                }
+                    {
+                        views.map(v => {
+                            return (
+                                <option key={++i} value={v}>
+                                    {v}
+                                </option>
+                            );
+                        })
+                    }
                 </select>
                 <table>
                     <tbody>
                     <tr>
                         <td>
-                                <input type="radio" value="home" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "home"}/> Host
-                                <input type="radio" value="away" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "away"} /> Away
-                                <input type="radio" value="allMatches" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "allMatches"}/> All Matches
+                            <input type="radio" value="home" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "home"}/> Host
+                            <input type="radio" value="away" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "away"} /> Away
+                            <input type="radio" value="allMatches" name="table-status" onChange={this.onTableStatusChanged} checked={this.props.tableStatus === "allMatches"}/> All Matches
                         </td>
                     </tr>
-                        <tr>
-                            <th>Teams</th>
-                            <th>P</th>
-                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></th>
-                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></th>
-                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></th>
-                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></th>
-                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></th>
-                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></th>
-                            <th className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></th>
-                        </tr>
+                    <tr>
+                        <th>Teams</th>
+                        <th>P</th>
+                        <th className="hand-button"><a onClick={this.onOrderChangeClicked}>W</a></th>
+                        <th className="hand-button"><a onClick={this.onOrderChangeClicked}>L</a></th>
+                        <th className="hand-button"><a onClick={this.onOrderChangeClicked}>D</a></th>
+                        <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GF</a></th>
+                        <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GA</a></th>
+                        <th className="hand-button"><a onClick={this.onOrderChangeClicked}>GD</a></th>
+                        <th className="hand-button"><a onClick={this.onOrderChangeClicked}>Points</a></th>
+                    </tr>
                     </tbody>
                     <tbody>
                     {
                         this.props.teamStatusList.map((t,i) =>
-                                <tr  key={t.name}>
-                                            <td>{++i}.<img src={this.props.teams.filter(tf => tf.name === t.name)[0].logoPath} width="15" height="15"/>
-                                                <a className="hand-button target" onClick={this.onTeamClicked}>{t.name}</a>
-                                            </td>
-                                            <td>{t.played}</td>
-                                            <td>{t.win}</td>
-                                            <td>{t.lost}</td>
-                                            <td>{t.drawn}</td>
-                                            <td>{t.goalsFor}</td>
-                                            <td>{t.goalsAgainst}</td>
-                                            <td>{t.difference}</td>
-                                            <td>{t.points}</td>
-                                </tr>
+                            <tr  key={t.name}>
+                                <td>{++i}.<img src={this.props.teams.filter(tf => tf.name === t.name)[0].logoPath} width="15" height="15"/>
+                                    <a className="hand-button target" onClick={this.onTeamClicked}>{t.name}</a>
+                                </td>
+                                <td>{t.played}</td>
+                                <td>{t.win}</td>
+                                <td>{t.lost}</td>
+                                <td>{t.drawn}</td>
+                                <td>{t.goalsFor}</td>
+                                <td>{t.goalsAgainst}</td>
+                                <td>{t.difference}</td>
+                                <td>{t.points}</td>
+                            </tr>
                         )
                     }
                     </tbody>
@@ -125,8 +125,8 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
 
         actionDispatcher.dispatch({
             tag: ActionTags.RELOAD_REQUESTED
-    });
-}
+        });
+    }
 
 }
 

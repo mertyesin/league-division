@@ -23,14 +23,14 @@ class App extends React.Component<AppProps, {}> {
             <div>
                 <table>
                     <tbody>
-                        <tr>
-                            <td>
-                                <DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList} teams={this.props.teams} tableStatus={this.props.tableStatus}/>
-                            </td>
-                            <td>
-                                <FixtureTable matchResults={this.props.matchResults} teamName={this.props.displayFixtureOf} tableStatus={this.props.tableStatus}/>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <DivisionTable teamStatusList={this.props.divisionTableProps.teamStatusList} teams={this.props.teams} tableStatus={this.props.tableStatus}/>
+                        </td>
+                        <td>
+                            <FixtureTable matchResults={this.props.matchResults} teamName={this.props.displayFixtureOf} tableStatus={this.props.tableStatus}/>
+                        </td>
+                    </tr>
                     </tbody>
                 </table>
             </div>
