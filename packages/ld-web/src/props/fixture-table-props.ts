@@ -1,4 +1,4 @@
-import {MatchResult} from "../../../ld/model/match-result";
+import {MatchResult} from "ld/model/match-result";
 
 interface FixtureTableProps {
     matchResults: MatchResult[],

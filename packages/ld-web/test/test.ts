@@ -1,8 +1,8 @@
 import * as assert from "assert";
 
 import {createDivisionTableProps} from "../src/props-factory";
-import {Team} from "../../ld/model/team";
-import {MatchResult} from "../../ld/model/match-result";
+import {Team} from "ld/model/team";
+import {MatchResult} from "ld/model/match-result";
 
 const teams: Team[] = require("../../ld-tools/generate/spain-laliga.json"),
     matchResults: MatchResult[] = require("../../ld-ws/spain-laliga-match-results.json"),

@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 import {App} from "./components";
 import {createAppProps} from "./props-factory";
 import {Dispatcher} from "flux";
-import {AppState} from "../../ld";
+import {AppState} from "ld";
 import {mainReducer} from "./reducers/main-reducer";
 import {Action} from "./actions/action";
 import {AppProps} from "./props";
