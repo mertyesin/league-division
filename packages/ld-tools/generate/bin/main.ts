@@ -14,6 +14,7 @@ let matchResults2: MatchResult[] = new Array(379);
 let count: number = 0;
 const england_premier_league_teams: Team[] = require("../england-premier-league.json");
 const spain_laliga_teams: Team[] = require("../spain-laliga.json");
+const england_championship_teams: Team[] = require("../england-championship.json");
 
 for (let i = 0; i < 20; i++) {
     let homeTeamName: string = england_premier_league_teams[i].name;
@@ -56,4 +57,26 @@ for (let i = 0; i < 20; i++) {
         count++;
     }
     fs.writeFileSync("./tmp/spain-laliga-match-results.json", JSON.stringify(matchResults2, undefined, 2), {encoding: "utf-8"});
+}
+
+count = 0; // for third match results
+for (let i = 0; i < 20; i++) {
+    let homeTeamName: string = england_championship_teams[i].name;
+    let awayTeamName: string;
+    for (let j = 0; j < 20; j++) {
+        if (i == j) {
+            continue;
+        }
+        else {
+            awayTeamName = england_championship_teams[j].name;
+        }
+        matchResults2[count] = {
+            "homeTeamName": homeTeamName,
+            "awayTeamName": awayTeamName,
+            "homeGoals": Math.floor((Math.random() * 5)),
+            "awayGoals": Math.floor((Math.random() * 5))
+        };
+        count++;
+    }
+    fs.writeFileSync("./tmp/england-championship-match-results.json", JSON.stringify(matchResults2, undefined, 2), {encoding: "utf-8"});
 }

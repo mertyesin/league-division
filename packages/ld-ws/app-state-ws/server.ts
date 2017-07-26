@@ -12,6 +12,9 @@ const englandPremierLeagueMatchResults: MatchResult[] = require("../england-prem
 const spainLaLigaTeams: Team[] = require("../../ld-tools/generate/spain-laliga.json");
 const spainLaligaMatchResults: MatchResult[] = require("../spain-laliga-match-results.json");
 
+const englandChampionshipTeams: Team[] = require("../../ld-tools/generate/england-championship.json");
+const englandChampionshipMatchResults: MatchResult[] = require("../england-championship-match-results.json");
+
 const initialAppState: AppState = require("./initial-app-state.json");
 
 const app: Application = express();
@@ -50,9 +53,22 @@ app.get("/app-state/:leagueName", function(httpRequest: Request, httpResponse: R
                 const newErr = `error details: match-results not found`;
                 sendErrorResponse(httpResponse, 500, newErr);
             }
+
+            break;
+
+        case "englandchampionship":
+            appState.matchResults = englandChampionshipMatchResults;
+            appState.teams = englandChampionshipTeams;
+            appState.displayFixtureOf = englandChampionshipTeams[0].name;
+
+            if (appState) {
+                sendResponse(httpResponse, appState);
+            }
+            else {
+                const newErr = `error details: match-results not found`;
+                sendErrorResponse(httpResponse, 500, newErr);
+            }
     }
-
-
 });
 
 function sendResponse(httpResponse: Response, response: Object): void {

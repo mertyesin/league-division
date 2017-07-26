@@ -14,7 +14,7 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
 
     render () {
 
-        const views: Array<string> = ["England Premier League","Spain LaLiga"];
+        const views: Array<string> = ["England Premier League","Spain LaLiga", "England Championship"];
         let i = 0;
         return (
             <div className="table">

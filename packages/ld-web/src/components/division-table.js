@@ -11,7 +11,7 @@ const actions_1 = require("../actions");
 const autobind = require("autobind-decorator");
 class DivisionTable extends React.Component {
     render() {
-        const views = ["England Premier League", "Spain LaLiga"];
+        const views = ["England Premier League", "Spain LaLiga", "England Championship"];
         let i = 0;
         return (React.createElement("div", { className: "table" },
             React.createElement("img", { className: "hand-button", onClick: this.onReloadClicked, src: "./images/england-premier-league/premier-league-logo.png", width: "230", height: "40" }),
