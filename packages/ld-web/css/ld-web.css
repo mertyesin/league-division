@@ -7,6 +7,9 @@
     font-family: "sans-serif";
 }
 
+.tinySize {
+    font-size: 80%;
+}
 /* mouse over link */
 a:hover {
     color: red;

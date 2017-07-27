@@ -18,7 +18,8 @@ class DivisionTable extends React.Component<DivisionTableProps, {}> {
         let i = 0;
         return (
             <div className="table">
-                <img className="hand-button" onClick={this.onReloadClicked} src="./images/england-premier-league/premier-league-logo.png" width="230" height="40"/>
+                <img className="hand-button" onClick={this.onReloadClicked}
+                     src="./images/england-premier-league/premier-league-logo.png" width="230" height="40"/>
                 <select onChange={this.onViewChanged}>
                     {
                         views.map(v => {

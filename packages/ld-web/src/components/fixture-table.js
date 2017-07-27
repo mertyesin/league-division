@@ -7,7 +7,7 @@ class FixtureTable extends React.Component {
                 React.createElement("tbody", null,
                     React.createElement("tr", null,
                         React.createElement("th", null, "Matches"))),
-                React.createElement("tbody", null,
+                React.createElement("tbody", { className: "tinySize" },
                     this.props.tableStatus === "home" ?
                         this.props.matchResults.filter(m => m.homeTeamName === this.props.teamName).map((t, i) => React.createElement("tr", { key: i },
                             React.createElement("td", null, t.homeTeamName + " " + t.homeGoals + "-" + t.awayGoals + " " + t.awayTeamName))) : null,

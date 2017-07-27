@@ -15,7 +15,7 @@ class FixtureTable extends React.Component<FixtureTableProps, {}> {
                             <th>Matches</th>
                         </tr>
                     </tbody>
-                    <tbody>
+                    <tbody className="tinySize">
                     {
                         this.props.tableStatus === "home" ?
                             this.props.matchResults.filter(m => m.homeTeamName === this.props.teamName).map((t, i) =>

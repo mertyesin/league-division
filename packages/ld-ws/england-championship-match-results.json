@@ -1,0 +1,2282 @@
+[
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Brighton",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Reading",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Fulham",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Brentford",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Newcastle United",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Reading",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Fulham",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Brentford",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brighton",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Brighton",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Fulham",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Brentford",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Reading",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Brighton",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Reading",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Fulham",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Brentford",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Sheffield",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Brighton",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Reading",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Fulham",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Brentford",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Huddersfield Town",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Brighton",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Reading",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Brentford",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Fulham",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Brighton",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Reading",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Fulham",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Brentford",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Leeds United",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Brighton",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Reading",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Fulham",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Brentford",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Norwich City",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Brighton",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Reading",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Fulham",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Brentford",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Derby Country",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Brighton",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Reading",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Fulham",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Brentford",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Brighton",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Reading",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Fulham",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Brentford",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Preston North End",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Brighton",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Reading",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Fulham",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Brentford",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Cardiff Vity",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Brighton",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Reading",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Fulham",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Brentford",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Aston Villa",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Brighton",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Reading",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Fulham",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Brentford",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Barnsley",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Brighton",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Reading",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Fulham",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 3,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Brentford",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 0,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 1,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Wolverhampton",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Brighton",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Reading",
+    "homeGoals": 0,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Fulham",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Brentford",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Ipswich Town",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Brighton",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Reading",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Fulham",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 3,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Brentford",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 4,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Bristol City",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 2,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Brighton",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Reading",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Fulham",
+    "homeGoals": 2,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Brentford",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Queens Park Ranger",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 0,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 3,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Brighton",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Reading",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Fulham",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 2,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Brentford",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 4,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 3,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Birmingham",
+    "awayTeamName": "Nottingham Forest",
+    "homeGoals": 0,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Newcastle United",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Brighton",
+    "homeGoals": 2,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Reading",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Sheffield",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Huddersfield Town",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Fulham",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Leeds United",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Norwich City",
+    "homeGoals": 1,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Derby Country",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Brentford",
+    "homeGoals": 1,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Preston North End",
+    "homeGoals": 1,
+    "awayGoals": 0
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Cardiff Vity",
+    "homeGoals": 1,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Aston Villa",
+    "homeGoals": 0,
+    "awayGoals": 2
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Barnsley",
+    "homeGoals": 4,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Wolverhampton",
+    "homeGoals": 2,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Ipswich Town",
+    "homeGoals": 4,
+    "awayGoals": 1
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Bristol City",
+    "homeGoals": 4,
+    "awayGoals": 4
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Queens Park Ranger",
+    "homeGoals": 3,
+    "awayGoals": 3
+  },
+  {
+    "homeTeamName": "Nottingham Forest",
+    "awayTeamName": "Birmingham",
+    "homeGoals": 4,
+    "awayGoals": 4
+  }
+]
