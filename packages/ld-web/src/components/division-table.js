@@ -9,12 +9,62 @@ const React = require("react");
 var PropTypes = React.PropTypes;
 const actions_1 = require("../actions");
 const autobind = require("autobind-decorator");
+let engTeams = ["Chelsea",
+    "Tottenham Hotspur",
+    "Liverpool",
+    "Manchester City",
+    "Manchester United",
+    "Arsenal",
+    "Everton",
+    "West Bromwich Albion",
+    "Southampton",
+    "Watford",
+    "Stoke City",
+    "Crystal Palace",
+    "Bournemouth",
+    "West Ham United",
+    "Leicester City",
+    "Burnley",
+    "Hull City",
+    "Swansea City",
+    "Middlesbrough",
+    "Sunderland"];
+let spaTeams = ["Real Madrid",
+    "Barcelona",
+    "Atletico Madrid",
+    "Sevilla",
+    "Villarreal",
+    "Real Sociedad",
+    "Athletic Bilbao",
+    "Espanyol",
+    "Alaves",
+    "Eibar",
+    "Malaga",
+    "Valencia",
+    "Celta Vigo",
+    "Las Palmas",
+    "Real Betis",
+    "Deportivo La Coruna",
+    "Leganes",
+    "Gijon",
+    "Osasuna",
+    "Granada"];
 class DivisionTable extends React.Component {
     render() {
+        let src = "";
+        if (engTeams.indexOf(this.props.teamStatusList[0].name) > -1) {
+            src = "./images/england-premier-league/premier-league-logo.png";
+        }
+        else if (spaTeams.indexOf(this.props.teamStatusList[0].name) > -1) {
+            src = "./images/spain-laliga/liga-bbva.png";
+        }
+        else {
+            src = "./images/england-championship/england-championship-logo.png";
+        }
         const views = ["England Premier League", "Spain LaLiga", "England Championship"];
         let i = 0;
         return (React.createElement("div", { className: "table" },
-            React.createElement("img", { className: "hand-button", onClick: this.onReloadClicked, src: "./images/england-premier-league/premier-league-logo.png", width: "230", height: "40" }),
+            React.createElement("img", { className: "hand-button", onClick: this.onReloadClicked, src: src, width: "220", height: "50" }),
             React.createElement("select", { onChange: this.onViewChanged }, views.map(v => {
                 return (React.createElement("option", { key: ++i, value: v }, v));
             })),
