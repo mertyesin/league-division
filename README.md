@@ -11,4 +11,4 @@
 
 ----- Here is a sample screenshot(old version) -----
 
-![Alt text](https://github.com/mertyesin/league-division/blob/master/packages/ld-web/images/england-premier-league/league-div-screenshot.png?raw=true "Optional Title")
+![Alt text](https://github.com/mertyesin/league-division/blob/master/packages/ld-web/images/league-screenshot?raw=true "Optional Title")
