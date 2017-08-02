@@ -1,5 +1,6 @@
 "use strict";
 const sort_teams_1 = require("./helpers/sort-teams");
+// TODO : LeagueLogoPath buraya
 function createDivisionTableProps(teams, matchResults, orderBy, tableStatus) {
     const teamStatusList = _createTeamStatusList(teams, matchResults, tableStatus), sortedTeamStatusList = sort_teams_1.sortTeams(teamStatusList, orderBy);
     return {

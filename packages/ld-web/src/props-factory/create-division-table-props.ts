@@ -1,9 +1,9 @@
-import {Team} from "../../../ld/model/team";
-import {MatchResult} from "../../../ld/model/match-result";
+import {Team} from "ld/model/team";
+import {MatchResult} from "ld/model/match-result";
 import {DivisionTableProps} from "../props/division-table-props";
-import {TeamStatus} from "../../../ld/model/team-status";
+import {TeamStatus} from "ld/model/team-status";
 import {sortTeams} from "./helpers/sort-teams";
-
+// TODO : LeagueLogoPath buraya
 function createDivisionTableProps(teams: Team[], matchResults: MatchResult[], orderBy: string, tableStatus: string): DivisionTableProps {
 
     const teamStatusList: TeamStatus[] = _createTeamStatusList(teams, matchResults, tableStatus),
